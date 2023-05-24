@@ -1,0 +1,4 @@
+Cannot generate into C:\Users\theop\OneDrive - yncréa\Documents\CIR2\C++\Pratique_TP\mini_projet_cpp
+It is already used for project \mnt\c\Users\theop\OneDrive - yncréa\Documents\CIR2\C++\Pratique_TP\mini_projet_cpp
+
+Please either delete it manually or select another generation directory
