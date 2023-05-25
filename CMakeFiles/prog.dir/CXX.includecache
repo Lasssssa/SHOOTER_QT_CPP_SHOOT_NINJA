@@ -55,9 +55,7 @@ MyScene.h
 /mnt/c/Users/theop/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h
 QGraphicsScene
 -
-QGraphicsRectItem
--
-QGraphicsTextItem
+QGraphicsView
 -
 QGraphicsPixmapItem
 -
@@ -66,6 +64,18 @@ QTimer
 QDebug
 -
 QKeyEvent
+-
+QVector
+-
+QPainter
+-
+QPixmap
+-
+heroes.h
+/mnt/c/Users/theop/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.h
+
+/mnt/c/Users/theop/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.h
+QGraphicsPixmapItem
 -
 
 /mnt/c/Users/theop/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/main.cpp
@@ -101,6 +111,10 @@ qsize.h
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer
 qtimer.h
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QVector
+qvector.h
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qvector.h
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h
 QtCore/qglobal.h
@@ -1196,6 +1210,12 @@ string.h
 stdlib.h
 -
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qvector.h
+QtCore/qlist.h
+-
+QtCore/qcontainerfwd.h
+-
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h
 QtCore/qglobal.h
 -
@@ -1207,6 +1227,14 @@ qaction.h
 /usr/include/x86_64-linux-gnu/qt6/QtGui/QKeyEvent
 qevent.h
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qevent.h
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/QPainter
+qpainter.h
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/QPixmap
+qpixmap.h
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform
 qtransform.h
@@ -1666,17 +1694,9 @@ qapplication.h
 qgraphicsitem.h
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsRectItem
-qgraphicsitem.h
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h
-
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsScene
 qgraphicsscene.h
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsTextItem
-qgraphicsitem.h
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsView
 qgraphicsview.h

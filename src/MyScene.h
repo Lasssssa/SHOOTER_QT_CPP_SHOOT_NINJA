@@ -2,23 +2,32 @@
 #define CPP_QT_TPMINIPROJET_MYSCENE_H
 
 #include <QGraphicsScene>
-#include <QGraphicsRectItem>
-#include <QGraphicsTextItem>
+#include <QGraphicsView>
 #include <QGraphicsPixmapItem>
 #include <QTimer>
 #include <QDebug>
 #include <QKeyEvent>
+#include <QVector>
+#include <QPainter>
+#include <QPixmap>
 
+#include "heroes.h"
+
+class Heroes;
 
 class MyScene : public QGraphicsScene {
     Q_OBJECT
 private :
     QTimer* timer;
-    QGraphicsPixmapItem* perso;
+    Heroes *perso;
+    QPixmap background;
+    //QVector<Ennemies*> ennemies;
 
 public:
     MyScene(QObject* parent = nullptr);
     virtual ~MyScene();
+    void drawBackground(QPainter* painter, const QRectF& rect);
+    //const QVector<QGraphicsPixmapItem*>& getEnnemies() { return ennemies;}
 
 protected:
     void keyPressEvent(QKeyEvent* event);
@@ -27,6 +36,5 @@ protected:
 public slots:
     void update();
 };
-
 
 #endif //CPP_QT_TPMINIPROJET_MYSCENE_H

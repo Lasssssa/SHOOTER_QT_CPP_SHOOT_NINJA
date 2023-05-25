@@ -17,6 +17,7 @@ private :
     MyScene* mainScene;
     QGraphicsView* mainView;
     QMenu* helpMenu;
+    QGraphicsView* viewMainPerso;
 
 
 public:

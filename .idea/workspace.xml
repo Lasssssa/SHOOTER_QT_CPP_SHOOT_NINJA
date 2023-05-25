@@ -16,20 +16,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2f6beb2-8c22-42d7-a745-710a0f69af1e" name="Changes" comment="Scène donnée par défaut">
+      <change afterPath="$PROJECT_DIR$/src/ennemies.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/MainWindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/MainWindow.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/MyScene.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/MyScene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/MyScene.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog_autogen.dir/ParseCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fond.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fond.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prog" beforeDir="false" afterPath="$PROJECT_DIR$/prog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MainWindow.cpp.d" beforeDir="false" afterPath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MainWindow.cpp.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MyScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MyScene.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MyScene.cpp.d" beforeDir="false" afterPath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MyScene.cpp.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainWindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainWindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyScene.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyScene.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyScene.h" afterDir="false" />
     </list>
@@ -64,7 +66,8 @@
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/theop/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/TP4_QT&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,7 +91,9 @@
       <workItem from="1685008404737" duration="10000" />
       <workItem from="1685008445206" duration="24000" />
       <workItem from="1685008486980" duration="31000" />
-      <workItem from="1685008550795" duration="21000" />
+      <workItem from="1685008550795" duration="805000" />
+      <workItem from="1685022897986" duration="364000" />
+      <workItem from="1685023497768" duration="2465000" />
     </task>
     <task id="LOCAL-00001" summary="Scène donnée par défaut">
       <created>1684920255879</created>
@@ -97,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684920255879</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Scène donnée par défaut">
+      <created>1685008643698</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685008643698</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
