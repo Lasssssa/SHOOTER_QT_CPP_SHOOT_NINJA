@@ -55,12 +55,28 @@ MyScene.h
 /mnt/c/Users/theop/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h
 QGraphicsScene
 -
+QGraphicsRectItem
+-
+QGraphicsTextItem
+-
+QGraphicsPixmapItem
+-
+QTimer
+-
+QDebug
+-
+QKeyEvent
+-
 
 /mnt/c/Users/theop/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/main.cpp
 QApplication
 -
 MainWindow.h
 /mnt/c/Users/theop/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MainWindow.h
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug
+qdebug.h
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QList
 qlist.h
@@ -81,6 +97,10 @@ qsize.h
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF
 qsize.h
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qsize.h
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer
+qtimer.h
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h
 QtCore/qglobal.h
@@ -156,6 +176,12 @@ QtCore/qglobal.h
 QtCore/qatomic_bootstrap.h
 -
 QtCore/qatomic_cxx11.h
+-
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h
+QtCore/qglobal.h
+-
+QtCore/qnamespace.h
 -
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qbindingstorage.h
@@ -1058,6 +1084,16 @@ QtCore/qrunnable.h
 functional
 -
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h
+QtCore/qglobal.h
+-
+QtCore/qbasictimer.h
+-
+QtCore/qobject.h
+-
+chrono
+-
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h
 QtCore/qglobal.h
 -
@@ -1167,6 +1203,10 @@ QtCore/qglobal.h
 /usr/include/x86_64-linux-gnu/qt6/QtGui/QAction
 qaction.h
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/QKeyEvent
+qevent.h
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qevent.h
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform
 qtransform.h
@@ -1428,6 +1468,22 @@ QtGui/qfontinfo.h
 QtGui/qfontmetrics.h
 -
 
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h
+QtGui/qtguiglobal.h
+-
+QtGui/qtransform.h
+-
+QtCore/qglobal.h
+-
+QtCore/qline.h
+-
+QtCore/qlist.h
+-
+QtCore/qrect.h
+-
+QtCore/qshareddata.h
+-
+
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h
 QtGui/qtguiglobal.h
 -
@@ -1606,9 +1662,21 @@ QtGui/qtguiglobal.h
 qapplication.h
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h
 
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsPixmapItem
+qgraphicsitem.h
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsRectItem
+qgraphicsitem.h
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h
+
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsScene
 qgraphicsscene.h
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsTextItem
+qgraphicsitem.h
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsView
 qgraphicsview.h
@@ -1662,6 +1730,22 @@ QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qobject.h
+-
+QtCore/qvariant.h
+-
+QtCore/qrect.h
+-
+QtCore/qscopedpointer.h
+-
+QtGui/qpainterpath.h
+-
+QtGui/qpixmap.h
 -
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h
