@@ -290,6 +290,33 @@ src/heroes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/heroes.cpp.s
 .PHONY : src/heroes.cpp.s
 
+src/magicBalls.o: src/magicBalls.cpp.o
+
+.PHONY : src/magicBalls.o
+
+# target to build an object file
+src/magicBalls.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/magicBalls.cpp.o
+.PHONY : src/magicBalls.cpp.o
+
+src/magicBalls.i: src/magicBalls.cpp.i
+
+.PHONY : src/magicBalls.i
+
+# target to preprocess a source file
+src/magicBalls.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/magicBalls.cpp.i
+.PHONY : src/magicBalls.cpp.i
+
+src/magicBalls.s: src/magicBalls.cpp.s
+
+.PHONY : src/magicBalls.s
+
+# target to generate assembly for a file
+src/magicBalls.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/magicBalls.cpp.s
+.PHONY : src/magicBalls.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -317,6 +344,114 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/scoreScene.o: src/scoreScene.cpp.o
+
+.PHONY : src/scoreScene.o
+
+# target to build an object file
+src/scoreScene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/scoreScene.cpp.o
+.PHONY : src/scoreScene.cpp.o
+
+src/scoreScene.i: src/scoreScene.cpp.i
+
+.PHONY : src/scoreScene.i
+
+# target to preprocess a source file
+src/scoreScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/scoreScene.cpp.i
+.PHONY : src/scoreScene.cpp.i
+
+src/scoreScene.s: src/scoreScene.cpp.s
+
+.PHONY : src/scoreScene.s
+
+# target to generate assembly for a file
+src/scoreScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/scoreScene.cpp.s
+.PHONY : src/scoreScene.cpp.s
+
+src/shooter.o: src/shooter.cpp.o
+
+.PHONY : src/shooter.o
+
+# target to build an object file
+src/shooter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/shooter.cpp.o
+.PHONY : src/shooter.cpp.o
+
+src/shooter.i: src/shooter.cpp.i
+
+.PHONY : src/shooter.i
+
+# target to preprocess a source file
+src/shooter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/shooter.cpp.i
+.PHONY : src/shooter.cpp.i
+
+src/shooter.s: src/shooter.cpp.s
+
+.PHONY : src/shooter.s
+
+# target to generate assembly for a file
+src/shooter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/shooter.cpp.s
+.PHONY : src/shooter.cpp.s
+
+src/shuriken.o: src/shuriken.cpp.o
+
+.PHONY : src/shuriken.o
+
+# target to build an object file
+src/shuriken.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/shuriken.cpp.o
+.PHONY : src/shuriken.cpp.o
+
+src/shuriken.i: src/shuriken.cpp.i
+
+.PHONY : src/shuriken.i
+
+# target to preprocess a source file
+src/shuriken.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/shuriken.cpp.i
+.PHONY : src/shuriken.cpp.i
+
+src/shuriken.s: src/shuriken.cpp.s
+
+.PHONY : src/shuriken.s
+
+# target to generate assembly for a file
+src/shuriken.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/shuriken.cpp.s
+.PHONY : src/shuriken.cpp.s
+
+src/startScene.o: src/startScene.cpp.o
+
+.PHONY : src/startScene.o
+
+# target to build an object file
+src/startScene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/startScene.cpp.o
+.PHONY : src/startScene.cpp.o
+
+src/startScene.i: src/startScene.cpp.i
+
+.PHONY : src/startScene.i
+
+# target to preprocess a source file
+src/startScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/startScene.cpp.i
+.PHONY : src/startScene.cpp.i
+
+src/startScene.s: src/startScene.cpp.s
+
+.PHONY : src/startScene.s
+
+# target to generate assembly for a file
+src/startScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/startScene.cpp.s
+.PHONY : src/startScene.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -342,9 +477,24 @@ help:
 	@echo "... src/heroes.o"
 	@echo "... src/heroes.i"
 	@echo "... src/heroes.s"
+	@echo "... src/magicBalls.o"
+	@echo "... src/magicBalls.i"
+	@echo "... src/magicBalls.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/scoreScene.o"
+	@echo "... src/scoreScene.i"
+	@echo "... src/scoreScene.s"
+	@echo "... src/shooter.o"
+	@echo "... src/shooter.i"
+	@echo "... src/shooter.s"
+	@echo "... src/shuriken.o"
+	@echo "... src/shuriken.i"
+	@echo "... src/shuriken.s"
+	@echo "... src/startScene.o"
+	@echo "... src/startScene.i"
+	@echo "... src/startScene.s"
 .PHONY : help
 
 

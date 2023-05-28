@@ -19,36 +19,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2f6beb2-8c22-42d7-a745-710a0f69af1e" name="Changes" comment="Update Scene + window">
-      <change beforePath="$PROJECT_DIR$/.idea/mini_projet_cpp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mini_projet_cpp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/MainWindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/MainWindow.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/MyScene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/MyScene.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog_autogen.dir/AutogenInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog_autogen.dir/ParseCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog_autogen.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MainWindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MainWindow.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MainWindow.cpp.d" beforeDir="false" afterPath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MainWindow.cpp.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MyScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MyScene.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MyScene.cpp.d" beforeDir="false" afterPath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MyScene.cpp.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog_autogen/mocs_compilation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prog_autogen/mocs_compilation.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainWindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainWindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyScene.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyScene.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyScene.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ennemies.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ennemies.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,23 +69,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -117,6 +112,8 @@
       <workItem from="1685023497768" duration="11090000" />
       <workItem from="1685035565739" duration="459000" />
       <workItem from="1685036047234" duration="68000" />
+      <workItem from="1685290627572" duration="17832000" />
+      <workItem from="1685351126928" duration="42765000" />
     </task>
     <task id="LOCAL-00001" summary="Scène donnée par défaut">
       <created>1684920255879</created>
@@ -139,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685026154462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update Scene + window">
+      <created>1685290698957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685290698957</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

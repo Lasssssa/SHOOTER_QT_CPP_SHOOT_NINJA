@@ -6,48 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_MainWindow.cpp
-memory
--
-../../src/MainWindow.h
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MainWindow.h
-QtCore/qmetatype.h
--
-
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_MyScene.cpp
-memory
--
-../../src/MyScene.h
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h
-QtCore/qmetatype.h
--
-
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/mocs_compilation.cpp
-UVLADIE3JM/moc_MainWindow.cpp
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_MainWindow.cpp
-UVLADIE3JM/moc_MyScene.cpp
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_MyScene.cpp
-
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MainWindow.cpp
-MainWindow.h
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MainWindow.h
-
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MainWindow.h
-QMainWindow
--
-QGraphicsView
--
-QMenu
--
-QMenuBar
--
-QAction
--
-QMessageBox
--
-MyScene.h
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h
-
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.cpp
 MyScene.h
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h
@@ -73,18 +31,32 @@ QPixmap
 -
 QPointF
 -
+QDebug
+-
+iostream
+-
+QRandomGenerator
+-
+QElapsedTimer
+-
+QTime
+-
 heroes.h
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.h
-
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/ennemies.cpp
 ennemies.h
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/ennemies.h
+shooter.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shooter.h
 
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/ennemies.h
-
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.cpp
-heroes.h
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.h
+QPixmap
+-
+QGraphicsPixmapItem
+-
+QGraphicsScene
+-
+QRandomGenerator
+-
 
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.h
 QPixmap
@@ -93,16 +65,68 @@ QGraphicsPixmapItem
 -
 QGraphicsScene
 -
+MyScene.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h
+shuriken.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shuriken.h
 
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/main.cpp
-QApplication
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/magicBalls.h
+QGraphicsPixmapItem
 -
-MainWindow.h
-/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MainWindow.h
+QGraphicsScene
+-
+QTimer
+-
+QPainter
+-
+QRectF
+-
+QVector
+-
+
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shooter.h
+QGraphicsPixmapItem
+-
+QGraphicsScene
+-
+QTimer
+-
+QPainter
+-
+QRectF
+-
+QVector
+-
+ennemies.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/ennemies.h
+magicBalls.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/magicBalls.h
+MyScene.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h
+
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shuriken.h
+QGraphicsPixmapItem
+-
+QGraphicsScene
+-
+QTimer
+-
+QPainter
+-
+QRectF
+-
+QVector
+-
+QGraphicsItem
+-
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug
 qdebug.h
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QElapsedTimer
+qelapsedtimer.h
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qelapsedtimer.h
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QList
 qlist.h
@@ -116,7 +140,15 @@ qobject.h
 qpoint.h
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QRandomGenerator
+qrandom.h
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qrandom.h
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QRect
+qrect.h
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF
 qrect.h
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h
 
@@ -127,6 +159,10 @@ qsize.h
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF
 qsize.h
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qsize.h
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QTime
+qdatetime.h
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer
 qtimer.h
@@ -274,6 +310,18 @@ QtCore/qstringfwd.h
 string
 -
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h
+limits
+-
+QtCore/qglobal.h
+-
+QtCore/qlocale.h
+-
+QtCore/qstring.h
+-
+QtCore/qstringview.h
+-
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qchar.h
 QtCore/qglobal.h
 -
@@ -338,40 +386,6 @@ limits.h
 new
 -
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h
-QtCore/qglobal.h
--
-QtCore/qstring.h
--
-QtCore/qcoreevent.h
--
-QtCore/qeventloop.h
--
-QtCore/qobject.h
--
-QtCore/qscopedpointer.h
--
-QtCore/qnativeinterface.h
--
-QtCore/qdebug.h
--
-QtCore/qcoreapplication_platform.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication_platform.h
-QtCore/qglobal.h
--
-QtCore/qnativeinterface.h
--
-QtCore/qcoreapplication.h
--
-QtCore/qjnitypes.h
--
-QtCore/qfuture.h
--
-QtCore/qvariant.h
--
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
@@ -390,14 +404,14 @@ QtCore/qcontainerfwd.h
 QtCore/qnamespace.h
 -
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qdeadlinetimer.h
-QtCore/qelapsedtimer.h
--
-QtCore/qmetatype.h
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h
+QtCore/qstring.h
 -
 QtCore/qnamespace.h
 -
-QtCore/qpair.h
+QtCore/qshareddata.h
+-
+QtCore/qcalendar.h
 -
 limits
 -
@@ -436,18 +450,6 @@ QtCore/qvarlengtharray.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qeventloop.h
-QtCore/qobject.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qexception.h
-QtCore/qatomic.h
--
-QtCore/qshareddata.h
--
-exception
--
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qflags.h
 QtCore/qglobal.h
 -
@@ -458,44 +460,6 @@ initializer_list
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qforeach.h
 QtCore/qglobal.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qfuture.h
-QtCore/qglobal.h
--
-QtCore/qfutureinterface.h
--
-QtCore/qmetatype.h
--
-QtCore/qstring.h
--
-QtCore/qfuture_impl.h
--
-type_traits
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qfuture_impl.h
-QtCore/qglobal.h
--
-QtCore/qfutureinterface.h
--
-QtCore/qthreadpool.h
--
-QtCore/qexception.h
--
-QtCore/qpointer.h
--
-QtCore/qpromise.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qfutureinterface.h
-QtCore/qmutex.h
--
-QtCore/qresultstore.h
--
-exception
--
-utility
 -
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qgenericatomic.h
@@ -626,12 +590,6 @@ QtCore/qtaggedpointer.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qjnitypes.h
-QtCore/qglobal.h
--
-jni.h
--
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h
 QtCore/qpoint.h
 -
@@ -750,20 +708,6 @@ map
 functional
 -
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qmutex.h
-QtCore/qglobal.h
--
-QtCore/qatomic.h
--
-QtCore/qtsan_impl.h
--
-new
--
-chrono
--
-limits
--
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qnamespace.h
 QtCore/qglobal.h
 -
@@ -844,12 +788,12 @@ QtCore/qtypeinfo.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qpromise.h
-QtCore/qglobal.h
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qrandom.h
+QtCore/qalgorithms.h
 -
-QtCore/qfutureinterface.h
+algorithm
 -
-utility
+random
 -
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h
@@ -864,18 +808,6 @@ QtCore/qpoint.h
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qrefcount.h
 QtCore/qatomic.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qresultstore.h
-QtCore/qmap.h
--
-utility
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qrunnable.h
-QtCore/qglobal.h
--
-functional
 -
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h
@@ -1096,28 +1028,6 @@ QtCore/qstringconverter_base.h
 stdio.h
 -
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qthread.h
-QtCore/qobject.h
--
-QtCore/qdeadlinetimer.h
--
-future
--
-functional
--
-intrin.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qthreadpool.h
-QtCore/qglobal.h
--
-QtCore/qthread.h
--
-QtCore/qrunnable.h
--
-functional
--
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h
 QtCore/qglobal.h
 -
@@ -1130,12 +1040,6 @@ chrono
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h
 QtCore/qglobal.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qtsan_impl.h
-QtCore/qglobal.h
--
-sanitizer/tsan_interface.h
 -
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h
@@ -1239,10 +1143,6 @@ QtCore/qcontainerfwd.h
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h
 QtCore/qglobal.h
 -
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/QAction
-qaction.h
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/QKeyEvent
 qevent.h
@@ -1394,32 +1294,6 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h
-QtGui/qtguiglobal.h
--
-QtCore/qcoreapplication.h
--
-QtGui/qwindowdefs.h
--
-QtGui/qinputmethod.h
--
-QtCore/qlocale.h
--
-QtCore/qpoint.h
--
-QtCore/qsize.h
--
-QtGui/qguiapplication_platform.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h
-QtGui/qtguiglobal.h
--
-QtCore/qnativeinterface.h
--
-QtGui/qguiapplication.h
--
-
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h
 QtGui/qtguiglobal.h
 -
@@ -1460,12 +1334,6 @@ QtGui/qtguiglobal.h
 QtCore/qobject.h
 -
 QtGui/qscreen.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qinputmethod.h
-QtGui/qtguiglobal.h
--
-QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h
@@ -1706,9 +1574,9 @@ QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication
-qapplication.h
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsItem
+qgraphicsitem.h
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsPixmapItem
 qgraphicsitem.h
@@ -1722,48 +1590,10 @@ qgraphicsscene.h
 qgraphicsview.h
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsview.h
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow
-qmainwindow.h
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenu
-qmenu.h
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenu.h
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenuBar
-qmenubar.h
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenubar.h
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox
-qmessagebox.h
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h
-
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h
-QtWidgets/qtwidgetsglobal.h
--
-QtCore/qcoreapplication.h
--
-QtGui/qwindowdefs.h
--
-QtCore/qpoint.h
--
-QtCore/qsize.h
--
-QtGui/qcursor.h
--
-QtGui/qguiapplication.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
 -
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h
@@ -1818,39 +1648,11 @@ QtWidgets/qscrollarea.h
 QtWidgets/qgraphicsscene.h
 -
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-QtWidgets/qtabwidget.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenu.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-QtCore/qstring.h
--
-QtGui/qicon.h
--
-QtGui/qaction.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenubar.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qmenu.h
--
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qdialog.h
--
-
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qscrollarea.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractscrollarea.h
+-
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractscrollarea.h
@@ -1865,18 +1667,20 @@ QtCore/qalgorithms.h
 -
 QtCore/qhashfunctions.h
 -
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
-QtWidgets/qwidget.h
+QtCore/qobject.h
 -
-QtGui/qicon.h
+QtCore/qalgorithms.h
+-
+QtCore/qhashfunctions.h
 -
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h
+QtCore/qglobal.h
+-
 QtCore/qglobal.h
 -
 
@@ -1887,8 +1691,46 @@ QtWidgets/qtwidgets-config.h
 -
 QtWidgets/qtwidgetsexports.h
 -
+QtGui/qtguiglobal.h
+-
+QtWidgets/qtwidgets-config.h
+-
+QtWidgets/qtwidgetsexports.h
+-
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtGui/qwindowdefs.h
+-
+QtCore/qobject.h
+-
+QtCore/qmargins.h
+-
+QtGui/qaction.h
+-
+QtGui/qpaintdevice.h
+-
+QtGui/qpalette.h
+-
+QtGui/qfont.h
+-
+QtGui/qfontmetrics.h
+-
+QtGui/qfontinfo.h
+-
+QtWidgets/qsizepolicy.h
+-
+QtGui/qregion.h
+-
+QtGui/qbrush.h
+-
+QtGui/qcursor.h
+-
+QtGui/qkeysequence.h
+-
+QtGui/qevent.h
+-
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qwindowdefs.h
