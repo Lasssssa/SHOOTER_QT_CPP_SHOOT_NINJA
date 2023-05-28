@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/theop/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp"
+CMAKE_SOURCE_DIR = "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/theop/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp"
+CMAKE_BINARY_DIR = "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/theop/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles" "/mnt/c/Users/theop/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/theop/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -236,6 +236,60 @@ src/MyScene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/MyScene.cpp.s
 .PHONY : src/MyScene.cpp.s
 
+src/ennemies.o: src/ennemies.cpp.o
+
+.PHONY : src/ennemies.o
+
+# target to build an object file
+src/ennemies.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/ennemies.cpp.o
+.PHONY : src/ennemies.cpp.o
+
+src/ennemies.i: src/ennemies.cpp.i
+
+.PHONY : src/ennemies.i
+
+# target to preprocess a source file
+src/ennemies.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/ennemies.cpp.i
+.PHONY : src/ennemies.cpp.i
+
+src/ennemies.s: src/ennemies.cpp.s
+
+.PHONY : src/ennemies.s
+
+# target to generate assembly for a file
+src/ennemies.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/ennemies.cpp.s
+.PHONY : src/ennemies.cpp.s
+
+src/heroes.o: src/heroes.cpp.o
+
+.PHONY : src/heroes.o
+
+# target to build an object file
+src/heroes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/heroes.cpp.o
+.PHONY : src/heroes.cpp.o
+
+src/heroes.i: src/heroes.cpp.i
+
+.PHONY : src/heroes.i
+
+# target to preprocess a source file
+src/heroes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/heroes.cpp.i
+.PHONY : src/heroes.cpp.i
+
+src/heroes.s: src/heroes.cpp.s
+
+.PHONY : src/heroes.s
+
+# target to generate assembly for a file
+src/heroes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/heroes.cpp.s
+.PHONY : src/heroes.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -282,6 +336,12 @@ help:
 	@echo "... src/MyScene.o"
 	@echo "... src/MyScene.i"
 	@echo "... src/MyScene.s"
+	@echo "... src/ennemies.o"
+	@echo "... src/ennemies.i"
+	@echo "... src/ennemies.s"
+	@echo "... src/heroes.o"
+	@echo "... src/heroes.i"
+	@echo "... src/heroes.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

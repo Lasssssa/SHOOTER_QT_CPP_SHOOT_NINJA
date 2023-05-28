@@ -1,6 +1,6 @@
-/mnt/c/Users/theop/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_MyScene.cpp: /mnt/c/Users/theop/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h \
-  /mnt/c/Users/theop/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/moc_predefs.h \
-  /mnt/c/Users/theop/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.h \
+/mnt/c/Users/tporo/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_MyScene.cpp: /mnt/c/Users/tporo/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h \
+  /mnt/c/Users/tporo/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/moc_predefs.h \
+  /mnt/c/Users/tporo/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \
@@ -251,6 +251,7 @@
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \

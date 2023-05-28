@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/prog.dir/src/MainWindow.cpp.o"
   "CMakeFiles/prog.dir/src/MyScene.cpp.o"
+  "CMakeFiles/prog.dir/src/ennemies.cpp.o"
+  "CMakeFiles/prog.dir/src/heroes.cpp.o"
   "CMakeFiles/prog.dir/src/main.cpp.o"
   "prog"
   "prog.pdb"

@@ -10,10 +10,10 @@
 #include <QVector>
 #include <QPainter>
 #include <QPixmap>
+#include <QPointF>
 
 #include "heroes.h"
 
-class Heroes;
 
 class MyScene : public QGraphicsScene {
     Q_OBJECT
@@ -22,6 +22,7 @@ private :
     Heroes *perso;
     QPixmap background;
     //QVector<Ennemies*> ennemies;
+    QPointF center;
 
 public:
     MyScene(QObject* parent = nullptr);

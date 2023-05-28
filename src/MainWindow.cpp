@@ -7,16 +7,17 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
 
     this->mainView = new QGraphicsView;
     this->mainView->setScene(mainScene);
+    //Zoom sur la vue
+    //this->mainView->scale(1.5, 1.5);
     this->setCentralWidget(mainView);
 
     this->setWindowTitle("TP Mini Projet");
-    this->resize(400, 800);
+    this->resize(700, 900);
 
     helpMenu = menuBar()->addMenu(tr("&Help"));
     QAction* actionHelp = new QAction(tr("&About"), this);
     connect(actionHelp, SIGNAL(triggered()), this, SLOT(slot_aboutMenu()));
     helpMenu->addAction(actionHelp);
-
 
 }
 
