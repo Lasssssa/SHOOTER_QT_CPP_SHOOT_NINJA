@@ -141,9 +141,22 @@ CMakeFiles/prog.dir/src/heroes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/heroes.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.cpp" -o CMakeFiles/prog.dir/src/heroes.cpp.s
 
+CMakeFiles/prog.dir/src/magicBalls.cpp.o: CMakeFiles/prog.dir/flags.make
+CMakeFiles/prog.dir/src/magicBalls.cpp.o: src/magicBalls.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/prog.dir/src/magicBalls.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/magicBalls.cpp.o -c "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/magicBalls.cpp"
+
+CMakeFiles/prog.dir/src/magicBalls.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog.dir/src/magicBalls.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/magicBalls.cpp" > CMakeFiles/prog.dir/src/magicBalls.cpp.i
+
+CMakeFiles/prog.dir/src/magicBalls.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/magicBalls.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/magicBalls.cpp" -o CMakeFiles/prog.dir/src/magicBalls.cpp.s
+
 CMakeFiles/prog.dir/src/main.cpp.o: CMakeFiles/prog.dir/flags.make
 CMakeFiles/prog.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/prog.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/prog.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/main.cpp.o -c "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/main.cpp"
 
 CMakeFiles/prog.dir/src/main.cpp.i: cmake_force
@@ -154,6 +167,58 @@ CMakeFiles/prog.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/main.cpp" -o CMakeFiles/prog.dir/src/main.cpp.s
 
+CMakeFiles/prog.dir/src/scoreScene.cpp.o: CMakeFiles/prog.dir/flags.make
+CMakeFiles/prog.dir/src/scoreScene.cpp.o: src/scoreScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/prog.dir/src/scoreScene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/scoreScene.cpp.o -c "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/scoreScene.cpp"
+
+CMakeFiles/prog.dir/src/scoreScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog.dir/src/scoreScene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/scoreScene.cpp" > CMakeFiles/prog.dir/src/scoreScene.cpp.i
+
+CMakeFiles/prog.dir/src/scoreScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/scoreScene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/scoreScene.cpp" -o CMakeFiles/prog.dir/src/scoreScene.cpp.s
+
+CMakeFiles/prog.dir/src/shooter.cpp.o: CMakeFiles/prog.dir/flags.make
+CMakeFiles/prog.dir/src/shooter.cpp.o: src/shooter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/prog.dir/src/shooter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/shooter.cpp.o -c "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shooter.cpp"
+
+CMakeFiles/prog.dir/src/shooter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog.dir/src/shooter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shooter.cpp" > CMakeFiles/prog.dir/src/shooter.cpp.i
+
+CMakeFiles/prog.dir/src/shooter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/shooter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shooter.cpp" -o CMakeFiles/prog.dir/src/shooter.cpp.s
+
+CMakeFiles/prog.dir/src/shuriken.cpp.o: CMakeFiles/prog.dir/flags.make
+CMakeFiles/prog.dir/src/shuriken.cpp.o: src/shuriken.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/prog.dir/src/shuriken.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/shuriken.cpp.o -c "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shuriken.cpp"
+
+CMakeFiles/prog.dir/src/shuriken.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog.dir/src/shuriken.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shuriken.cpp" > CMakeFiles/prog.dir/src/shuriken.cpp.i
+
+CMakeFiles/prog.dir/src/shuriken.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/shuriken.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shuriken.cpp" -o CMakeFiles/prog.dir/src/shuriken.cpp.s
+
+CMakeFiles/prog.dir/src/startScene.cpp.o: CMakeFiles/prog.dir/flags.make
+CMakeFiles/prog.dir/src/startScene.cpp.o: src/startScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/prog.dir/src/startScene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/startScene.cpp.o -c "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/startScene.cpp"
+
+CMakeFiles/prog.dir/src/startScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog.dir/src/startScene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/startScene.cpp" > CMakeFiles/prog.dir/src/startScene.cpp.i
+
+CMakeFiles/prog.dir/src/startScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/startScene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/startScene.cpp" -o CMakeFiles/prog.dir/src/startScene.cpp.s
+
 # Object files for target prog
 prog_OBJECTS = \
 "CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o" \
@@ -161,7 +226,12 @@ prog_OBJECTS = \
 "CMakeFiles/prog.dir/src/MyScene.cpp.o" \
 "CMakeFiles/prog.dir/src/ennemies.cpp.o" \
 "CMakeFiles/prog.dir/src/heroes.cpp.o" \
-"CMakeFiles/prog.dir/src/main.cpp.o"
+"CMakeFiles/prog.dir/src/magicBalls.cpp.o" \
+"CMakeFiles/prog.dir/src/main.cpp.o" \
+"CMakeFiles/prog.dir/src/scoreScene.cpp.o" \
+"CMakeFiles/prog.dir/src/shooter.cpp.o" \
+"CMakeFiles/prog.dir/src/shuriken.cpp.o" \
+"CMakeFiles/prog.dir/src/startScene.cpp.o"
 
 # External object files for target prog
 prog_EXTERNAL_OBJECTS =
@@ -171,7 +241,12 @@ prog: CMakeFiles/prog.dir/src/MainWindow.cpp.o
 prog: CMakeFiles/prog.dir/src/MyScene.cpp.o
 prog: CMakeFiles/prog.dir/src/ennemies.cpp.o
 prog: CMakeFiles/prog.dir/src/heroes.cpp.o
+prog: CMakeFiles/prog.dir/src/magicBalls.cpp.o
 prog: CMakeFiles/prog.dir/src/main.cpp.o
+prog: CMakeFiles/prog.dir/src/scoreScene.cpp.o
+prog: CMakeFiles/prog.dir/src/shooter.cpp.o
+prog: CMakeFiles/prog.dir/src/shuriken.cpp.o
+prog: CMakeFiles/prog.dir/src/startScene.cpp.o
 prog: CMakeFiles/prog.dir/build.make
 prog: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 prog: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
@@ -179,7 +254,7 @@ prog: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 prog: /usr/lib/x86_64-linux-gnu/libGLX.so
 prog: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 prog: CMakeFiles/prog.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable prog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable prog"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/prog.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

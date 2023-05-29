@@ -9,7 +9,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/MyScene.cpp.o"
   "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/ennemies.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/ennemies.cpp.o"
   "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/heroes.cpp.o"
+  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/magicBalls.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/magicBalls.cpp.o"
   "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/main.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/main.cpp.o"
+  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/scoreScene.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/scoreScene.cpp.o"
+  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shooter.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/shooter.cpp.o"
+  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shuriken.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/shuriken.cpp.o"
+  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/startScene.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/startScene.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
