@@ -18,13 +18,26 @@ MyScene::MyScene(MainWindow* mainWdow, QObject* parent) : QGraphicsScene(parent)
     connect(spawnEnnemies, SIGNAL(timeout()), this, SLOT(spawnEnnemy()));
     spawnEnnemies->start(2000);
 
+    //Set du point central de la vue
+    this->position = QPointF(this->width()/2,1920);
+
     //Création du personnage principal
     perso = new Heroes(this,10,5,"img/main_perso.png");
     perso->setPos(this->width()/2, 1920);
     this->addItem(perso);
 
-    //Set du point central de la vue
-    this->position = QPointF(this->width()/2,1920);
+    //Création de la barre de vie
+    healthBar = new HealthBar("img/vie_10.png", this->width()/2, 1920);
+    healthBar->setPos(this->width()-this->healthBar->boundingRect().width()-20, 2270-this->healthBar->boundingRect().height()-20);
+    this->addItem(healthBar);
+
+    //Ajout du texte pour le score :
+    scoreText = new QGraphicsTextItem();
+    scoreText->setPlainText("Score : " + QString::number(perso->getScore()));
+    //scoreText->setDefaultTextColor(Qt::white);
+    //scoreText->setFont(QFont("times",16));
+    scoreText->setPos(20, 1600+scoreText->boundingRect().height());
+    this->addItem(scoreText);
 
     //Création du timer pour les tirs du personnage principal
     shootInterval = new QElapsedTimer();
@@ -53,6 +66,8 @@ void MyScene::startGame(){
     //Reinitialise tout à 0
     this->perso->setScore(0);
     this->perso->setLife(10);
+
+    this->healthBar->updateLife("img/vie_10.png");
 
     //Reinitialise la position du personnage
     this->perso->setPos(this->width()/2, 1920);
@@ -96,6 +111,8 @@ void MyScene::reStartGame(){
     this->position.setY(1920);
     this->position.setX(this->width()/2);
 
+    this->healthBar->updateLife("img/vie_10.png");
+
     this->clearAll();
 }
 
@@ -114,6 +131,7 @@ MyScene::~MyScene() {
     delete spawnEnnemies;
     delete shootInterval;
     delete shootTimer;
+    delete healthBar;
 }
 void MyScene::drawBackground(QPainter *painter, const QRectF &rect) {
     Q_UNUSED(rect);
@@ -126,12 +144,17 @@ void MyScene::update() {
 
     this->perso->setScore(this->perso->getScore()+1);
 
+    //Update du score
+    this->scoreText->setPlainText("Score : " + QString::number(perso->getScore()));
+
 
     //Fait avancer le personnage
     int speedGame = 2;
     int newY = this->position.y() - speedGame;
     if(newY > 1920)
     {
+        scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame);
+        this->healthBar->moveHealthBar();
         this->position.setY(newY);
         perso->moveUp(speedGame);
         for (Ennemies* ennemi : this->ennemies) {
@@ -151,6 +174,7 @@ void MyScene::update() {
     }else{
         newY += 3840;
         this->position.setY(newY);
+        scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame+3840);
         int Y = perso->pos().y() - speedGame +3840;
         perso->setPos(perso->pos().x(),Y);
         for (Ennemies* ennemi : this->ennemies) {
@@ -168,6 +192,7 @@ void MyScene::update() {
             }
         }
         //Fait avancer les magics balls des shooter ennemies
+        this->healthBar->setPos(this->healthBar->pos().x(),this->healthBar->pos().y()+3840);
 
     }
     this->views()[0]->centerOn(position);
@@ -265,6 +290,7 @@ void MyScene::checkCollisions() {
                 cadavre->~QGraphicsPixmapItem();
             });
             perso->setLife(perso->getLife()-1);
+            this->healthBar->updateLife("img/vie_"+QString::number(perso->getLife())+".png");
         }
     }
 
@@ -288,6 +314,7 @@ void MyScene::checkCollisions() {
                 cadavre->~QGraphicsPixmapItem();
             });
             perso->setLife(perso->getLife()-1);
+            this->healthBar->updateLife("img/vie_"+QString::number(perso->getLife())+".png");
         }
     }
 
@@ -299,6 +326,7 @@ void MyScene::checkCollisions() {
                 ennemi->magicBalls.removeOne(magicBall);
                 //Enleve une vie au personnage
                 perso->setLife(perso->getLife()-1);
+                this->healthBar->updateLife("img/vie_"+QString::number(perso->getLife())+".png");
             }
         }
     }

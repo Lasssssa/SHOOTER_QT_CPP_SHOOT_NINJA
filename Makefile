@@ -263,6 +263,33 @@ src/ennemies.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/ennemies.cpp.s
 .PHONY : src/ennemies.cpp.s
 
+src/healthBar.o: src/healthBar.cpp.o
+
+.PHONY : src/healthBar.o
+
+# target to build an object file
+src/healthBar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/healthBar.cpp.o
+.PHONY : src/healthBar.cpp.o
+
+src/healthBar.i: src/healthBar.cpp.i
+
+.PHONY : src/healthBar.i
+
+# target to preprocess a source file
+src/healthBar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/healthBar.cpp.i
+.PHONY : src/healthBar.cpp.i
+
+src/healthBar.s: src/healthBar.cpp.s
+
+.PHONY : src/healthBar.s
+
+# target to generate assembly for a file
+src/healthBar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/healthBar.cpp.s
+.PHONY : src/healthBar.cpp.s
+
 src/heroes.o: src/heroes.cpp.o
 
 .PHONY : src/heroes.o
@@ -474,6 +501,9 @@ help:
 	@echo "... src/ennemies.o"
 	@echo "... src/ennemies.i"
 	@echo "... src/ennemies.s"
+	@echo "... src/healthBar.o"
+	@echo "... src/healthBar.i"
+	@echo "... src/healthBar.s"
 	@echo "... src/heroes.o"
 	@echo "... src/heroes.i"
 	@echo "... src/heroes.s"

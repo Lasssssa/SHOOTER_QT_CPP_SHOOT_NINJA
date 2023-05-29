@@ -20,6 +20,7 @@
 #include "heroes.h"
 #include "ennemies.h"
 #include "shooter.h"
+#include "healthBar.h"
 
 
 class MainWindow;
@@ -40,6 +41,10 @@ private :
     QVector<int> keysPressed;
     QElapsedTimer* shootInterval;
     QTimer* shootTimer;
+
+    HealthBar* healthBar;
+
+    QGraphicsTextItem* scoreText;
 
 public:
     MyScene(MainWindow* mainWdow, QObject* parent = nullptr);

@@ -2,6 +2,7 @@
   /mnt/c/Users/tporo/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/moc_predefs.h \
   /mnt/c/Users/tporo/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h \
   /mnt/c/Users/tporo/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/ennemies.h \
+  /mnt/c/Users/tporo/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/healthBar.h \
   /mnt/c/Users/tporo/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.h \
   /mnt/c/Users/tporo/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/magicBalls.h \
   /mnt/c/Users/tporo/OneDrive\ -\ yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/scoreScene.h \

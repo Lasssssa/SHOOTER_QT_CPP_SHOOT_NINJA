@@ -92,7 +92,7 @@ void MyScene::checkLife() {
 void MainWindow::gameOver() {
     this->lastScore = this->mainScene->getHeroes()->getScore();
     exportScore(this->lastScore, this->name);
-    this->scoreScene = new ScoreScene(this, "test", 180);
+    this->scoreScene = new ScoreScene(this, this->name,this->lastScore);
     this->mainView->setScene(this->scoreScene);
 }
 
