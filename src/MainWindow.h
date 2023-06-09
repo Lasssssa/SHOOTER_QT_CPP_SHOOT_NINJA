@@ -42,6 +42,7 @@ public:
     void gameOver();
     void restartGameWindow();
     void restartMenu();
+    void setName(std::string name);
 
 public slots:
     void slot_aboutMenu();

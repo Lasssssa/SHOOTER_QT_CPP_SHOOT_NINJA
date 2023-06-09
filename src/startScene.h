@@ -11,6 +11,8 @@
 //Include pour les connect :
 #include <QObject>
 #include <iostream>
+#include <QLabel>
+#include <QLineEdit>
 
 //#include "MainWindow.h"
 
@@ -22,7 +24,7 @@ private :
     QPixmap background;
     MainWindow* mainWindow;
     QPushButton* startGame;
-
+    QLineEdit* pseudoEdit;
 public :
     StartScene(MainWindow *mainWindow, QObject *parent = nullptr);
 

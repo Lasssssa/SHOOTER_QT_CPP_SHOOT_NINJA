@@ -72,7 +72,14 @@ void MainWindow::slot_aboutMenu(){
 
 void StartScene::slot_startGame(){
     //std::cout << "Start Game" << std::endl;
+    if(this->pseudoEdit->text() != ""){
+        this->mainWindow->setName(this->pseudoEdit->text().toStdString());
+    }
     this->mainWindow->showGameScene();
+}
+
+void MainWindow::setName(std::string name){
+    this->name = name;
 }
 
 void MainWindow::showGameScene(){

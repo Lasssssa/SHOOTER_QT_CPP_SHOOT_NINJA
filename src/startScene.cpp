@@ -12,10 +12,16 @@ StartScene::StartScene(MainWindow* mainWindow, QObject* parent) : QGraphicsScene
     //Ajoute un bouton pour lancer le jeu
     this->startGame = new QPushButton("Start Game");
     this->startGame->setGeometry(0, 0, 200, 50);
-    this->startGame->setStyleSheet("background-color: #000000; color: #ffffff");
+    this->startGame->setStyleSheet("background-color: #0f77fb; color: #000000");
+
+    pseudoEdit = new QLineEdit();
+    pseudoEdit->setGeometry(0, 0, 200, 50);
 
     QGraphicsProxyWidget* proxyWidget1 = addWidget(startGame);
-    proxyWidget1->setPos(width/2 - 100, height/2 - 50);
+    QGraphicsProxyWidget* proxyWidget3 = addWidget(pseudoEdit);
+
+    proxyWidget1->setPos(width/2 , height/2 - 10);
+    proxyWidget3->setPos(width/2 , height/2 - 70);
 
     connect(this->startGame, SIGNAL(clicked()), this, SLOT(slot_startGame()));
 

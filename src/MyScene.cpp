@@ -34,8 +34,8 @@ MyScene::MyScene(MainWindow* mainWdow, QObject* parent) : QGraphicsScene(parent)
     //Ajout du texte pour le score :
     scoreText = new QGraphicsTextItem();
     scoreText->setPlainText("Score : " + QString::number(perso->getScore()));
-    //scoreText->setDefaultTextColor(Qt::white);
-    //scoreText->setFont(QFont("times",16));
+    scoreText->setDefaultTextColor(Qt::white);
+    scoreText->setFont(QFont("times",16));
     scoreText->setPos(20, 1600+scoreText->boundingRect().height());
     this->addItem(scoreText);
 
@@ -47,6 +47,40 @@ MyScene::MyScene(MainWindow* mainWdow, QObject* parent) : QGraphicsScene(parent)
     shootTimer = new QTimer(this);
     connect(shootTimer, SIGNAL(timeout()), this, SLOT(shootOfEnnemies()));
     shootTimer->start(1500);
+
+
+    countEnnemies = 0;
+    countShooter = 0;
+
+    //Ajout du texte pour le score des ennemis :
+    scoreEnnemies = new QGraphicsTextItem();
+    scoreEnnemies->setPlainText(QString::number(countEnnemies));
+    scoreEnnemies->setDefaultTextColor(Qt::white);
+    scoreEnnemies->setFont(QFont("times",16));
+    scoreEnnemies->setPos(75, 1700);
+
+    //Ajout du texte pour le score des ennemis :
+    scoreShooter = new QGraphicsTextItem();
+    scoreShooter->setPlainText(QString::number(countShooter));
+    scoreShooter->setDefaultTextColor(Qt::white);
+    scoreShooter->setFont(QFont("times",16));
+    scoreShooter->setPos(75, 1775);
+
+    //Ajout de l'image des ennemis :
+    ennemiesImage = new QGraphicsPixmapItem();
+    ennemiesImage->setPixmap(QPixmap("img/emmeniCount.png"));
+    ennemiesImage->setPos(20, 1700);
+
+    //Ajout de l'image des ennemis :
+    shooterImage = new QGraphicsPixmapItem();
+    shooterImage->setPixmap(QPixmap("img/shooterCount.png"));
+    shooterImage->setPos(20, 1775);
+
+    this->addItem(scoreEnnemies);
+    this->addItem(scoreShooter);
+    this->addItem(ennemiesImage);
+    this->addItem(shooterImage);
+
 
 }
 
@@ -142,6 +176,9 @@ void MyScene::update() {
 
     //Test :
 
+    scoreShooter->setPlainText(QString::number(countShooter));
+    scoreEnnemies->setPlainText(QString::number(countEnnemies));
+
     this->perso->setScore(this->perso->getScore()+1);
 
     //Update du score
@@ -153,6 +190,10 @@ void MyScene::update() {
     int newY = this->position.y() - speedGame;
     if(newY > 1920)
     {
+        scoreShooter->setPos(scoreShooter->pos().x(),scoreShooter->pos().y()-speedGame);
+        scoreEnnemies->setPos(scoreEnnemies->pos().x(),scoreEnnemies->pos().y()-speedGame);
+        ennemiesImage->setPos(ennemiesImage->pos().x(),ennemiesImage->pos().y()-speedGame);
+        shooterImage->setPos(shooterImage->pos().x(),shooterImage->pos().y()-speedGame);
         scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame);
         this->healthBar->moveHealthBar();
         this->position.setY(newY);
@@ -174,6 +215,10 @@ void MyScene::update() {
     }else{
         newY += 3840;
         this->position.setY(newY);
+        scoreShooter->setPos(scoreShooter->pos().x(),scoreShooter->pos().y()-speedGame+3840);
+        scoreEnnemies->setPos(scoreEnnemies->pos().x(),scoreEnnemies->pos().y()-speedGame+3840);
+        ennemiesImage->setPos(ennemiesImage->pos().x(),ennemiesImage->pos().y()-speedGame+3840);
+        shooterImage->setPos(shooterImage->pos().x(),shooterImage->pos().y()-speedGame+3840);
         scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame+3840);
         int Y = perso->pos().y() - speedGame +3840;
         perso->setPos(perso->pos().x(),Y);
@@ -218,6 +263,7 @@ void MyScene::shootOfEnnemies(){
         ennemi->shoot();
     }
 }
+
 void MyScene::checkCollisions() {
     //Gère les collisions entre les shurikens et les ennemis normaux
     for (Shuriken* shuriken : this->perso->shurikens) {
@@ -240,6 +286,8 @@ void MyScene::checkCollisions() {
                         this->removeItem(cadavre);
                         cadavre->~QGraphicsPixmapItem();
                     });
+                    countEnnemies++;
+                    perso->setScore(perso->getScore()+25);
                 }
             }
         }
@@ -270,6 +318,8 @@ void MyScene::checkCollisions() {
                         this->removeItem(cadavre);
                         cadavre->~QGraphicsPixmapItem();
                     });
+                    countShooter++;
+                    perso->setScore(perso->getScore()+25);
                 }
             }
         }
@@ -289,6 +339,8 @@ void MyScene::checkCollisions() {
                 this->removeItem(cadavre);
                 cadavre->~QGraphicsPixmapItem();
             });
+            countEnnemies++;
+            perso->setScore(perso->getScore()+25);
             perso->setLife(perso->getLife()-1);
             this->healthBar->updateLife("img/vie_"+QString::number(perso->getLife())+".png");
         }
@@ -313,6 +365,8 @@ void MyScene::checkCollisions() {
                 this->removeItem(cadavre);
                 cadavre->~QGraphicsPixmapItem();
             });
+            countShooter++;
+            perso->setScore(perso->getScore()+25);
             perso->setLife(perso->getLife()-1);
             this->healthBar->updateLife("img/vie_"+QString::number(perso->getLife())+".png");
         }
@@ -406,11 +460,15 @@ void MyScene::checkKeysPressed() {
 }
 
 void MyScene::spawnEnnemy() {
-    int randomSpawnEnnemy = QRandomGenerator::global()->bounded(0,4);
+    if(this->getHeroes()->getScore() > step){
+        step += 500;
+        difficulty += 1;
+    }
+    int randomSpawnEnnemy = QRandomGenerator::global()->bounded(0,difficulty);
     for(int k=0;k<=randomSpawnEnnemy ;k++){
         createEnnemy();
     }
-    int randomSpawnShooterEnnemy = QRandomGenerator::global()->bounded(0,2);
+    int randomSpawnShooterEnnemy = QRandomGenerator::global()->bounded(0,difficulty/2);
     for(int k=0;k<=randomSpawnShooterEnnemy ;k++){
         createShooterEnnemy();
     }

@@ -2166,6 +2166,7 @@ CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGu
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h
+CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qpointingdevice.h
@@ -2174,6 +2175,9 @@ CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGu
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qscreen.h
+CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h
+CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h
+CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h
@@ -2187,6 +2191,8 @@ CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWi
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsProxyWidget
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsScene
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsView
+CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel
+CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h
@@ -2197,6 +2203,8 @@ CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWi
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsview.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicswidget.h
+CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h
+CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qscrollarea.h
 CMakeFiles/prog.dir/src/startScene.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h

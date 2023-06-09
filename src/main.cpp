@@ -21,18 +21,13 @@
  * - Ajout d'un menu de sélection de difficulté (plus de monstres, plus de dégats, plus de vie)
  *
  * -------------------Ajout dans le code--------------------
- * - Ajout de la vie en jeu
- * - Ajout du score
  * - Ajout d'un timer
  * - Ajout du pseudo
  * - Ajout de l'inventaire
- *
  * --------------Chose prioritaire----------------
- * - Ajout de la vie en jeu
- * - Ajout du score
  * - Ajout d'un timer
- * - Ajout du pseudo
  *
+ * 
  * - Ajout du menu de base
  * -Ajout du menu de gameOver
  */

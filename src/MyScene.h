@@ -41,10 +41,20 @@ private :
     QVector<int> keysPressed;
     QElapsedTimer* shootInterval;
     QTimer* shootTimer;
-
+    int step = 500;
+    int difficulty = 4;
     HealthBar* healthBar;
 
     QGraphicsTextItem* scoreText;
+
+    //PARTIE SCORE
+    int countShooter;
+    int countEnnemies;
+    QGraphicsTextItem* scoreShooter;
+    QGraphicsTextItem* scoreEnnemies;
+    QGraphicsPixmapItem* shooterImage;
+    QGraphicsPixmapItem* ennemiesImage;
+
 
 public:
     MyScene(MainWindow* mainWdow, QObject* parent = nullptr);

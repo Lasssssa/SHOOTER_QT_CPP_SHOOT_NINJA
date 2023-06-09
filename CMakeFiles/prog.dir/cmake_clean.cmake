@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/prog.dir/src/MainWindow.cpp.o"
   "CMakeFiles/prog.dir/src/MyScene.cpp.o"
   "CMakeFiles/prog.dir/src/ennemies.cpp.o"
+  "CMakeFiles/prog.dir/src/healthBar.cpp.o"
   "CMakeFiles/prog.dir/src/heroes.cpp.o"
   "CMakeFiles/prog.dir/src/magicBalls.cpp.o"
   "CMakeFiles/prog.dir/src/main.cpp.o"
