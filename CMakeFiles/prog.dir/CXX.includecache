@@ -6,6 +6,54 @@
 
 #IncludeRegexTransform: 
 
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_MainWindow.cpp
+memory
+-
+../../src/MainWindow.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MainWindow.h
+QtGui/qtextcursor.h
+-
+QtCore/qmetatype.h
+-
+
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_MyScene.cpp
+memory
+-
+../../src/MyScene.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h
+QtCore/qmetatype.h
+-
+
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_scoreScene.cpp
+memory
+-
+../../src/scoreScene.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/scoreScene.h
+QtGui/qtextcursor.h
+-
+QtCore/qmetatype.h
+-
+
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_startScene.cpp
+memory
+-
+../../src/startScene.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/startScene.h
+QtGui/qtextcursor.h
+-
+QtCore/qmetatype.h
+-
+
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/mocs_compilation.cpp
+UVLADIE3JM/moc_MainWindow.cpp
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_MainWindow.cpp
+UVLADIE3JM/moc_MyScene.cpp
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_MyScene.cpp
+UVLADIE3JM/moc_scoreScene.cpp
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_scoreScene.cpp
+UVLADIE3JM/moc_startScene.cpp
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/UVLADIE3JM/moc_startScene.cpp
+
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MainWindow.cpp
 MainWindow.h
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MainWindow.h
@@ -37,6 +85,10 @@ unistd.h
 -
 string
 -
+
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.cpp
+MyScene.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h
 
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h
 QGraphicsScene
@@ -80,6 +132,10 @@ shooter.h
 healthBar.h
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/healthBar.h
 
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/ennemies.cpp
+ennemies.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/ennemies.h
+
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/ennemies.h
 QPixmap
 -
@@ -90,11 +146,19 @@ QGraphicsScene
 QRandomGenerator
 -
 
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/healthBar.cpp
+healthBar.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/healthBar.h
+
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/healthBar.h
 QPainter
 -
 QGraphicsPixmapItem
 -
+
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.cpp
+heroes.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.h
 
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.h
 QPixmap
@@ -107,6 +171,10 @@ MyScene.h
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h
 shuriken.h
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shuriken.h
+
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/magicBalls.cpp
+magicBalls.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/magicBalls.h
 
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/magicBalls.h
 QGraphicsPixmapItem
@@ -121,6 +189,16 @@ QRectF
 -
 QVector
 -
+
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/main.cpp
+QApplication
+-
+MainWindow.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MainWindow.h
+
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/scoreScene.cpp
+scoreScene.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/scoreScene.h
 
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/scoreScene.h
 QGraphicsScene
@@ -178,6 +256,10 @@ QTableWidget
 string
 -
 
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shooter.cpp
+shooter.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shooter.h
+
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shooter.h
 QGraphicsPixmapItem
 -
@@ -198,6 +280,10 @@ magicBalls.h
 MyScene.h
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.h
 
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shuriken.cpp
+shuriken.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shuriken.h
+
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shuriken.h
 QGraphicsPixmapItem
 -
@@ -213,6 +299,10 @@ QVector
 -
 QGraphicsItem
 -
+
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/startScene.cpp
+startScene.h
+/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/startScene.h
 
 /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/startScene.h
 QGraphicsScene
@@ -1684,6 +1774,32 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h
+QtGui/qtguiglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtGui/qinputmethod.h
+-
+QtCore/qlocale.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+QtGui/qguiapplication_platform.h
+-
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h
+QtGui/qtguiglobal.h
+-
+QtCore/qnativeinterface.h
+-
+QtGui/qguiapplication.h
+-
+
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h
 QtGui/qtguiglobal.h
 -
@@ -1724,6 +1840,12 @@ QtGui/qtguiglobal.h
 QtCore/qobject.h
 -
 QtGui/qscreen.h
+-
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qinputmethod.h
+QtGui/qtguiglobal.h
+-
+QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h
@@ -2038,6 +2160,10 @@ QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication
+qapplication.h
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h
+
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog
 qdialog.h
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h
@@ -2166,6 +2292,22 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 QtGui/qvalidator.h
+-
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+QtGui/qcursor.h
+-
+QtGui/qguiapplication.h
 -
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h

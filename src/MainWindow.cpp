@@ -77,8 +77,8 @@ void MainWindow::slot_aboutMenu(){
                         "If your life reaches 0, you lose the game. \n"
                         "Also, you can use the ultimate with the E key every 25 seconds. \n"
                         "Also, you can use the invisibility with the R key every 15 seconds. \n"
-                        "Good luck !"
-                        "By the way, if you don't enter any name, your score will be saved as 'Inconnu'.";
+                        "Good luck !\n"
+                        "By the way, if you don't enter any name, your score will be saved as 'Inconnu'.\n";
     msgBox.setText(rules);
     msgBox.setModal(true);
     msgBox.exec();
