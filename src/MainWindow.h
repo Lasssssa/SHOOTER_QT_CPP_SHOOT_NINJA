@@ -54,4 +54,6 @@ std::string getLastName();
 
 void exportScore(int score, std::string name);
 
+bool playerIsNotInFile(std::string name);
+
 #endif //CPP_QT_TPMINIPROJET_MAINWINDOW_H

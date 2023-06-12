@@ -103,10 +103,52 @@ void MainWindow::gameOver() {
     this->mainView->setScene(this->scoreScene);
 }
 
+bool playerIsNotInFile(std::string name){
+    std::ifstream file("score.txt");
+    std::string str;
+    while (std::getline(file, str)) {
+        std::string pseudo = str.substr(0, str.find(" "));
+        if(pseudo == name){
+            return false;
+        }
+    }
+    return true;
+}
+
 void exportScore(int score, std::string name){
-    std::ofstream file("score.txt", std::ios::app);
-    file << name << " " << score << std::endl;
-    file.close();
+    std::ifstream file("score.txt");
+    std::string str;
+    std::string newFile = "";
+    if(file.peek() == std::ifstream::traits_type::eof() || playerIsNotInFile(name)){
+        std::ofstream file2("score.txt");
+        //Recopie le fichier
+        while(std::getline(file, str)){
+            newFile += str + "\n";
+        }
+        file2 << newFile;
+        file2 << name + " " + std::to_string(score) + "\n";
+        file2.close();
+        return;
+    }else {
+        while (std::getline(file, str)) {
+            std::string pseudo = str.substr(0, str.find(" "));
+            std::string scorePlayer = str.substr(str.find(" ") + 1, str.length());
+            if(pseudo == name){
+                if(std::stoi(scorePlayer) < score){
+                    newFile += name + " " + std::to_string(score) + "\n";
+                }else{
+                    newFile += str + "\n";
+                }
+            }else{
+                newFile += str + "\n";
+            }
+        }
+        file.close();
+        std::ofstream file2("score.txt");
+        std::cout << newFile << std::endl;
+        file2 << newFile;
+        file2.close();
+    }
 }
 
 void ScoreScene::slot_continue(){

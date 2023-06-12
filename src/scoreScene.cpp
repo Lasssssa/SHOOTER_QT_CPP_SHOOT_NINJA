@@ -44,7 +44,57 @@ ScoreScene::ScoreScene(MainWindow* mainWindow, std::string name, int lastScore, 
     //Connecte le bouton retour à la fonction close()
     QObject::connect(retour, SIGNAL(clicked()), this, SLOT(close()));
 
+    tableScore = new QTableWidget;
+    tableScore->setColumnCount(2);
+    tableScore->setRowCount(10);
+    tableScore->setGeometry(width/2,height/2, 320, 200);
+
+    tableScore->setHorizontalHeaderItem(0, new QTableWidgetItem("Pseudo"));
+    tableScore->setHorizontalHeaderItem(1, new QTableWidgetItem("Score"));
+
+    tableScore->setColumnWidth(0, 150);
+    tableScore->setColumnWidth(1, 150);
+
+    tableScore->setEditTriggers(QAbstractItemView::NoEditTriggers);
+
+    //Recupere le nombre de joueur et coupe si il y en a plus de 10
+    int nbJoueur = 0;
+    nbJoueur = getNbJoueur();
+    if(nbJoueur > 10) {
+        nbJoueur = 10;
+    }
+
+    //Recupere les scores et les pseudos dans le fichier score.txt
+    std::string line;
+    std::ifstream file("score.txt");
+    if (file.is_open()) {
+        for(int i = 0; i < nbJoueur; i++) {
+            getline(file, line);
+            std::string pseudo = line.substr(0, line.find(" "));
+            std::string score = line.substr(line.find(" ") + 1, line.length());
+            tableScore->setItem(i, 0, new QTableWidgetItem(QString::fromStdString(pseudo)));
+            tableScore->setItem(i, 1, new QTableWidgetItem(QString::fromStdString(score)));
+        }
+        file.close();
+    }
+    QGraphicsProxyWidget* proxyWidget3 = addWidget(tableScore);
+    proxyWidget3->setPos(width/2-150, height - 200);
+
 }
+
+int getNbJoueur() {
+    int nbJoueur = 0;
+    std::string line;
+    std::ifstream file("score.txt");
+    if (file.is_open()) {
+        while (getline(file, line)) {
+            nbJoueur++;
+        }
+        file.close();
+    }
+    return nbJoueur;
+}
+
 ScoreScene::~ScoreScene() {
     retour->~QPushButton();
     sauvegarder->~QPushButton();

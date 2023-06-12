@@ -28,6 +28,7 @@
 #include <QDir>
 #include <QStandardPaths>
 #include <QCoreApplication>
+#include <QTableWidget>
 
 #include <string>
 
@@ -43,6 +44,9 @@ private:
     QPushButton* retour;
     MainWindow* mainWindow;
 
+    QTableWidget* tableScore;
+
+
 public:
     ScoreScene(MainWindow* mainWindow, std::string name, int lastScore, QObject* parent = nullptr);
     virtual ~ScoreScene();
@@ -53,6 +57,8 @@ public:
     void slot_continue();
     void close();
 };
+
+int getNbJoueur();
 
 
 
