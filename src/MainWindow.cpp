@@ -75,7 +75,8 @@ void MainWindow::slot_aboutMenu(){
                         "You can also earn points by eliminating enemies. \n"
                         "If you are hit by an enemy, you lose life. \n"
                         "If your life reaches 0, you lose the game. \n"
-                        "Also, you can use the ultimate with the E key every 18 seconds. \n"
+                        "Also, you can use the ultimate with the E key every 25 seconds. \n"
+                        "Also, you can use the invisibility with the R key every 15 seconds. \n"
                         "Good luck !"
                         "By the way, if you don't enter any name, your score will be saved as 'Inconnu'.";
     msgBox.setText(rules);

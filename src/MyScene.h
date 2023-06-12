@@ -43,6 +43,7 @@ private :
     QVector<int> keysPressed;
     QElapsedTimer* shootInterval;
     QElapsedTimer* ultiInterval;
+    QElapsedTimer* invisibilityInterval;
     QTimer* shootTimer;
 
 
@@ -53,6 +54,7 @@ private :
     QGraphicsTextItem* scoreText;
 
     QGraphicsTextItem* ultimText;
+    QGraphicsTextItem* invisibilityText;
 
     //PARTIE SCORE
     int countShooter;

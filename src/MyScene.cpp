@@ -46,6 +46,9 @@ MyScene::MyScene(MainWindow* mainWdow, QObject* parent) : QGraphicsScene(parent)
     ultiInterval = new QElapsedTimer();
     ultiInterval->start();
 
+    invisibilityInterval = new QElapsedTimer();
+    invisibilityInterval->start();
+
     //Création du timer pour les tirs des ennemis
     shootTimer = new QTimer(this);
     connect(shootTimer, SIGNAL(timeout()), this, SLOT(shootOfEnnemies()));
@@ -87,6 +90,14 @@ MyScene::MyScene(MainWindow* mainWdow, QObject* parent) : QGraphicsScene(parent)
     ultimText->setPos(this->width()-175, 1600);
     this->addItem(ultimText);
 
+    invisibilityText = new QGraphicsTextItem();
+    QString time2 = QString::number(15 - (ultiInterval->elapsed()/1000));
+    invisibilityText->setPlainText("Invisibility : " + time2);
+    invisibilityText->setDefaultTextColor(Qt::white);
+    invisibilityText->setFont(QFont("times",16));
+    invisibilityText->setPos(this->width()-215, 1650);
+    this->addItem(invisibilityText);
+
 
     this->addItem(scoreEnnemies);
     this->addItem(scoreShooter);
@@ -127,6 +138,8 @@ void MyScene::startGame(){
 
 void MyScene::clearAll(){
     for (Ennemies* ennemi : this->ennemies){
+        this->getHeroes()->setScore(this->getHeroes()->getScore()+20);
+        this->countEnnemies++;
         this->removeItem(ennemi);
         this->ennemies.removeOne(ennemi);
     }
@@ -135,6 +148,8 @@ void MyScene::clearAll(){
             this->removeItem(magicBall);
             ennemi->magicBalls.removeOne(magicBall);
         }
+        this->getHeroes()->setScore(this->getHeroes()->getScore()+20);
+        this->countShooter++;
         this->removeItem(ennemi);
         this->ennemiesShooter.removeOne(ennemi);
     }
@@ -201,6 +216,7 @@ void MyScene::update() {
             shooterImage->setPos(shooterImage->pos().x(),shooterImage->pos().y()-speedGame);
             scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame);
             ultimText->setPos(ultimText->pos().x(),ultimText->pos().y()-speedGame);
+            invisibilityText->setPos(invisibilityText->pos().x(),invisibilityText->pos().y()-speedGame);
             this->healthBar->moveHealthBar();
             this->position.setY(newY);
             perso->moveUp(speedGame);
@@ -227,6 +243,7 @@ void MyScene::update() {
             shooterImage->setPos(shooterImage->pos().x(),shooterImage->pos().y()-speedGame+3840);
             scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame+3840);
             ultimText->setPos(ultimText->pos().x(),ultimText->pos().y()-speedGame+3840);
+            invisibilityText->setPos(invisibilityText->pos().x(),invisibilityText->pos().y()-speedGame+3840);
             int Y = perso->pos().y() - speedGame +3840;
             perso->setPos(perso->pos().x(),Y);
             for (Ennemies* ennemi : this->ennemies) {
@@ -252,9 +269,17 @@ void MyScene::update() {
         if(ultiInterval->elapsed() > 25000){
             timeUlti = "Ready";
         }
+
+        QString timeInvisibility = QString::number(15 - invisibilityInterval->elapsed()/1000);
+        if(invisibilityInterval->elapsed() > 15000){
+            timeInvisibility = "Ready";
+        }
+        this->invisibilityText->setPlainText("Invisibility : " + timeInvisibility);
+
         this->ultimText->setPlainText("Ultim : " + timeUlti);
 
     this->views()[0]->centerOn(position);
+
 
     //Gère les touches pressées
     checkKeysPressed();
@@ -473,8 +498,7 @@ void MyScene::checkKeysPressed() {
                     }
                 break;
             case Qt::Key_R:
-                if(this->getHeroes()->magicPower > 0){
-                    this->getHeroes()->magicPower--;
+                if(invisibilityInterval->elapsed() > 15000) {
                     this->getHeroes()->invisible = true;
                     this->getHeroes()->setOpacity(0.5);
                     QTimer::singleShot(4000, this, [=](){
@@ -482,6 +506,7 @@ void MyScene::checkKeysPressed() {
                         this->getHeroes()->setOpacity(1);
                     });
                 }
+                invisibilityInterval->restart();
                 this->keysPressed.removeOne(key);
                 break;
             }
