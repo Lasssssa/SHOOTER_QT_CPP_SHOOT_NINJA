@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
     this->lastScore = 0;
     this->mainView->setScene(this->startScene);
     this->setCentralWidget(mainView);
-    this->setWindowTitle("MINI PROJET");
+    this->setWindowTitle("SHOOT NINJA");
     this->resize(700, 700);
     this->setMinimumSize(700, 700);
     this->setMaximumSize(700, 700);
