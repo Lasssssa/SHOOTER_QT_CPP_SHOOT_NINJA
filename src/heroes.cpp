@@ -6,6 +6,7 @@ Heroes::Heroes(MyScene* scene, QString nameFile) : QGraphicsPixmapItem(QPixmap(n
     this->speed = 1;
     this->invisible = false;
     this->scene = scene;
+    this->magicPower = 0;
 }
 
 Heroes::Heroes(MyScene* scene, int life, int speed, QString nameFile) : QGraphicsPixmapItem(QPixmap(nameFile)) {
@@ -13,6 +14,12 @@ Heroes::Heroes(MyScene* scene, int life, int speed, QString nameFile) : QGraphic
     this->speed = speed;
     this->invisible = false;
     this->scene = scene;
+    this->magicPower = 0;
+}
+
+void Heroes::shootSpecial() {
+    scene->clearAll();
+    this->score += 750;
 }
 
 int Heroes::getScore() {

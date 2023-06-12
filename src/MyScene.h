@@ -16,6 +16,8 @@
 #include <QRandomGenerator>
 #include <QElapsedTimer>
 #include <QTime>
+//INCLUDE POUR SLEEP
+#include <unistd.h>
 
 #include "heroes.h"
 #include "ennemies.h"
@@ -40,12 +42,17 @@ private :
     QVector<EnnemiesShooter*> ennemiesShooter;
     QVector<int> keysPressed;
     QElapsedTimer* shootInterval;
+    QElapsedTimer* ultiInterval;
     QTimer* shootTimer;
+
+
     int step = 500;
     int difficulty = 4;
-    HealthBar* healthBar;
 
+    HealthBar* healthBar;
     QGraphicsTextItem* scoreText;
+
+    QGraphicsTextItem* ultimText;
 
     //PARTIE SCORE
     int countShooter;
@@ -68,20 +75,19 @@ public:
     void reStartGame();
     void stopGame();
 
+    void spawnUltim();
+
     Heroes* getHeroes() { return perso; }
 
     void clearShurikens();
     void clearEnnemies();
     void clearEnnemiesShooter();
 
-
-
-
     void createEnnemy();
     void createShooterEnnemy();
 
     void clearAll();
-
+    void clearAllEnnemies();
 
 protected:
     void keyPressEvent(QKeyEvent* event);

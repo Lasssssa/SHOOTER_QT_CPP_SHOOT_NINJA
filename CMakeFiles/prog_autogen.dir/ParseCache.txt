@@ -587,20 +587,26 @@
  mdp:/usr/include/string.h
  mdp:/usr/include/strings.h
  mdp:/usr/include/time.h
+ mdp:/usr/include/unistd.h
  mdp:/usr/include/wchar.h
  mdp:/usr/include/wctype.h
  mdp:/usr/include/x86_64-linux-gnu/bits/byteswap.h
+ mdp:/usr/include/x86_64-linux-gnu/bits/confname.h
  mdp:/usr/include/x86_64-linux-gnu/bits/cpu-set.h
  mdp:/usr/include/x86_64-linux-gnu/bits/endian.h
  mdp:/usr/include/x86_64-linux-gnu/bits/endianness.h
+ mdp:/usr/include/x86_64-linux-gnu/bits/environments.h
  mdp:/usr/include/x86_64-linux-gnu/bits/floatn-common.h
  mdp:/usr/include/x86_64-linux-gnu/bits/floatn.h
+ mdp:/usr/include/x86_64-linux-gnu/bits/getopt_core.h
+ mdp:/usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  mdp:/usr/include/x86_64-linux-gnu/bits/libc-header-start.h
  mdp:/usr/include/x86_64-linux-gnu/bits/local_lim.h
  mdp:/usr/include/x86_64-linux-gnu/bits/locale.h
  mdp:/usr/include/x86_64-linux-gnu/bits/long-double.h
  mdp:/usr/include/x86_64-linux-gnu/bits/posix1_lim.h
  mdp:/usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+ mdp:/usr/include/x86_64-linux-gnu/bits/posix_opt.h
  mdp:/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  mdp:/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
  mdp:/usr/include/x86_64-linux-gnu/bits/sched.h
@@ -644,6 +650,7 @@
  mdp:/usr/include/x86_64-linux-gnu/bits/typesizes.h
  mdp:/usr/include/x86_64-linux-gnu/bits/uintn-identity.h
  mdp:/usr/include/x86_64-linux-gnu/bits/uio_lim.h
+ mdp:/usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  mdp:/usr/include/x86_64-linux-gnu/bits/waitflags.h
  mdp:/usr/include/x86_64-linux-gnu/bits/waitstatus.h
  mdp:/usr/include/x86_64-linux-gnu/bits/wchar.h

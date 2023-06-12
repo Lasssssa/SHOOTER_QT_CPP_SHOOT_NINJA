@@ -30,6 +30,7 @@ CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-lin
 CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize
 CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF
 CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QStandardPaths
+CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QString
 CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QTextStream
 CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QTime
 CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer
@@ -291,6 +292,7 @@ CMakeFiles/prog.dir/src/MainWindow.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCo
 CMakeFiles/prog.dir/src/MainWindow.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize
 CMakeFiles/prog.dir/src/MainWindow.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF
 CMakeFiles/prog.dir/src/MainWindow.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QStandardPaths
+CMakeFiles/prog.dir/src/MainWindow.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QString
 CMakeFiles/prog.dir/src/MainWindow.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QTextStream
 CMakeFiles/prog.dir/src/MainWindow.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QTime
 CMakeFiles/prog.dir/src/MainWindow.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer
@@ -1269,6 +1271,7 @@ CMakeFiles/prog.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QRe
 CMakeFiles/prog.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize
 CMakeFiles/prog.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF
 CMakeFiles/prog.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QStandardPaths
+CMakeFiles/prog.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QString
 CMakeFiles/prog.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QTextStream
 CMakeFiles/prog.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QTime
 CMakeFiles/prog.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer

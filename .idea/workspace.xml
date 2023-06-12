@@ -18,33 +18,26 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2f6beb2-8c22-42d7-a745-710a0f69af1e" name="Changes" comment="Ajout de la fonctionnalité de sauvegarde intelligente + tableau des scores">
+    <list default="true" id="f2f6beb2-8c22-42d7-a745-710a0f69af1e" name="Changes" comment="Ajout des règles dans le menu de base">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/MainWindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/MainWindow.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/MyScene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/MyScene.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/scoreScene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/scoreScene.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/heroes.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/heroes.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/startScene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog.dir/src/startScene.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/prog_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/prog_autogen.dir/ParseCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Top-Down-Ninja-royalty-free-game-art.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/boule de magie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ennemi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fond.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fond.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fond2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fond_test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gameover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/personnage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pzuh180800026.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/vie_1.pfi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magicBalls.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/prog" beforeDir="false" afterPath="$PROJECT_DIR$/prog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_startScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_startScene.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MyScene.cpp.d" beforeDir="false" afterPath="$PROJECT_DIR$/prog_autogen/UVLADIE3JM/moc_MyScene.cpp.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/score.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainWindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/magicBalls.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/magicBalls.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/startScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/startScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/startScene.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/startScene.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyScene.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyScene.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyScene.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heroes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/heroes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heroes.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/heroes.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +115,7 @@
       <workItem from="1686231430712" duration="1498000" />
       <workItem from="1686306439637" duration="11403000" />
       <workItem from="1686326571294" duration="2377000" />
-      <workItem from="1686559357852" duration="6476000" />
+      <workItem from="1686559357852" duration="14132000" />
     </task>
     <task id="LOCAL-00001" summary="Scène donnée par défaut">
       <created>1684920255879</created>
@@ -187,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686563973267</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ajout des règles dans le menu de base">
+      <created>1686570560264</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686570560264</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +216,7 @@
     <MESSAGE value="Grosse MAJ 30/05 qui apporte l'essentiel du cahier des charges" />
     <MESSAGE value="Ajout de la fonctionnalité de compteur de kill + niveau de difficulté" />
     <MESSAGE value="Ajout de la fonctionnalité de sauvegarde intelligente + tableau des scores" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la fonctionnalité de sauvegarde intelligente + tableau des scores" />
+    <MESSAGE value="Ajout des règles dans le menu de base" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout des règles dans le menu de base" />
   </component>
 </project>

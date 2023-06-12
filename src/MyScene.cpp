@@ -43,6 +43,9 @@ MyScene::MyScene(MainWindow* mainWdow, QObject* parent) : QGraphicsScene(parent)
     shootInterval = new QElapsedTimer();
     shootInterval->start();
 
+    ultiInterval = new QElapsedTimer();
+    ultiInterval->start();
+
     //Création du timer pour les tirs des ennemis
     shootTimer = new QTimer(this);
     connect(shootTimer, SIGNAL(timeout()), this, SLOT(shootOfEnnemies()));
@@ -76,11 +79,19 @@ MyScene::MyScene(MainWindow* mainWdow, QObject* parent) : QGraphicsScene(parent)
     shooterImage->setPixmap(QPixmap("img/shooterCount.png"));
     shooterImage->setPos(20, 1775);
 
+    ultimText = new QGraphicsTextItem();
+    QString time = QString::number(25 - (ultiInterval->elapsed()/1000));
+    ultimText->setPlainText("Ultim : " + time);
+    ultimText->setDefaultTextColor(Qt::white);
+    ultimText->setFont(QFont("times",16));
+    ultimText->setPos(this->width()-175, 1600);
+    this->addItem(ultimText);
+
+
     this->addItem(scoreEnnemies);
     this->addItem(scoreShooter);
     this->addItem(ennemiesImage);
     this->addItem(shooterImage);
-
 
 }
 
@@ -174,72 +185,75 @@ void MyScene::drawBackground(QPainter *painter, const QRectF &rect) {
 
 void MyScene::update() {
 
-    //Test :
-
-    scoreShooter->setPlainText(QString::number(countShooter));
-    scoreEnnemies->setPlainText(QString::number(countEnnemies));
-
-    this->perso->setScore(this->perso->getScore()+1);
-
-    //Update du score
-    this->scoreText->setPlainText("Score : " + QString::number(perso->getScore()));
-
-
-    //Fait avancer le personnage
-    int speedGame = 2;
-    int newY = this->position.y() - speedGame;
-    if(newY > 1920)
-    {
-        scoreShooter->setPos(scoreShooter->pos().x(),scoreShooter->pos().y()-speedGame);
-        scoreEnnemies->setPos(scoreEnnemies->pos().x(),scoreEnnemies->pos().y()-speedGame);
-        ennemiesImage->setPos(ennemiesImage->pos().x(),ennemiesImage->pos().y()-speedGame);
-        shooterImage->setPos(shooterImage->pos().x(),shooterImage->pos().y()-speedGame);
-        scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame);
-        this->healthBar->moveHealthBar();
-        this->position.setY(newY);
-        perso->moveUp(speedGame);
-        for (Ennemies* ennemi : this->ennemies) {
-            ennemi->move();
-        }
-        //Fait avancer les shurikens
-        for (Shuriken* shuriken : this->perso->shurikens) {
-            shuriken->move();
-        }
-        //Fait avancer les shoter
-        for (EnnemiesShooter* ennemi : this->ennemiesShooter){
-            ennemi->move();
-            for(MagicBalls* magicBall : ennemi->magicBalls){
-                magicBall->move();
+        scoreShooter->setPlainText(QString::number(countShooter));
+        scoreEnnemies->setPlainText(QString::number(countEnnemies));
+        this->perso->setScore(this->perso->getScore()+1);
+        //Update du score
+        this->scoreText->setPlainText("Score : " + QString::number(perso->getScore()));
+        //Fait avancer le personnage
+        int speedGame = 2;
+        int newY = this->position.y() - speedGame;
+        if(newY > 1920)
+        {
+            scoreShooter->setPos(scoreShooter->pos().x(),scoreShooter->pos().y()-speedGame);
+            scoreEnnemies->setPos(scoreEnnemies->pos().x(),scoreEnnemies->pos().y()-speedGame);
+            ennemiesImage->setPos(ennemiesImage->pos().x(),ennemiesImage->pos().y()-speedGame);
+            shooterImage->setPos(shooterImage->pos().x(),shooterImage->pos().y()-speedGame);
+            scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame);
+            ultimText->setPos(ultimText->pos().x(),ultimText->pos().y()-speedGame);
+            this->healthBar->moveHealthBar();
+            this->position.setY(newY);
+            perso->moveUp(speedGame);
+            for (Ennemies* ennemi : this->ennemies) {
+                ennemi->move();
             }
-        }
-    }else{
-        newY += 3840;
-        this->position.setY(newY);
-        scoreShooter->setPos(scoreShooter->pos().x(),scoreShooter->pos().y()-speedGame+3840);
-        scoreEnnemies->setPos(scoreEnnemies->pos().x(),scoreEnnemies->pos().y()-speedGame+3840);
-        ennemiesImage->setPos(ennemiesImage->pos().x(),ennemiesImage->pos().y()-speedGame+3840);
-        shooterImage->setPos(shooterImage->pos().x(),shooterImage->pos().y()-speedGame+3840);
-        scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame+3840);
-        int Y = perso->pos().y() - speedGame +3840;
-        perso->setPos(perso->pos().x(),Y);
-        for (Ennemies* ennemi : this->ennemies) {
-            ennemi->setPos(ennemi->pos().x(),ennemi->pos().y()+3840);
-        }
-        //Fait avancer les shurikens
-        for (Shuriken* shuriken : this->perso->shurikens) {
-            shuriken->setPos(shuriken->pos().x(),shuriken->pos().y()+3840);
-        }
-        //Fait avancer les shoter
-        for (EnnemiesShooter* ennemi : this->ennemiesShooter){
-            ennemi->setPos(ennemi->pos().x(),ennemi->pos().y()+3840);
-            for(MagicBalls* magicBall : ennemi->magicBalls){
-                magicBall->setPos(magicBall->pos().x(),magicBall->pos().y()+3840);
+            //Fait avancer les shurikens
+            for (Shuriken* shuriken : this->perso->shurikens) {
+                shuriken->move();
             }
-        }
-        //Fait avancer les magics balls des shooter ennemies
-        this->healthBar->setPos(this->healthBar->pos().x(),this->healthBar->pos().y()+3840);
+            //Fait avancer les shoter
+            for (EnnemiesShooter* ennemi : this->ennemiesShooter){
+                ennemi->move();
+                for(MagicBalls* magicBall : ennemi->magicBalls){
+                    magicBall->move();
+                }
+            }
+        }else{
+            newY += 3840;
+            this->position.setY(newY);
+            scoreShooter->setPos(scoreShooter->pos().x(),scoreShooter->pos().y()-speedGame+3840);
+            scoreEnnemies->setPos(scoreEnnemies->pos().x(),scoreEnnemies->pos().y()-speedGame+3840);
+            ennemiesImage->setPos(ennemiesImage->pos().x(),ennemiesImage->pos().y()-speedGame+3840);
+            shooterImage->setPos(shooterImage->pos().x(),shooterImage->pos().y()-speedGame+3840);
+            scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame+3840);
+            ultimText->setPos(ultimText->pos().x(),ultimText->pos().y()-speedGame+3840);
+            int Y = perso->pos().y() - speedGame +3840;
+            perso->setPos(perso->pos().x(),Y);
+            for (Ennemies* ennemi : this->ennemies) {
+                ennemi->setPos(ennemi->pos().x(),ennemi->pos().y()+3840);
+            }
+            //Fait avancer les shurikens
+            for (Shuriken* shuriken : this->perso->shurikens) {
+                shuriken->setPos(shuriken->pos().x(),shuriken->pos().y()+3840);
+            }
+            //Fait avancer les shoter
+            for (EnnemiesShooter* ennemi : this->ennemiesShooter){
+                ennemi->setPos(ennemi->pos().x(),ennemi->pos().y()+3840);
+                for(MagicBalls* magicBall : ennemi->magicBalls){
+                    magicBall->setPos(magicBall->pos().x(),magicBall->pos().y()+3840);
+                }
+            }
+            //Fait avancer les magics balls des shooter ennemies
+            this->healthBar->setPos(this->healthBar->pos().x(),this->healthBar->pos().y()+3840);
 
-    }
+        }
+
+        QString timeUlti = QString::number(25 - ultiInterval->elapsed()/1000);
+        if(ultiInterval->elapsed() > 25000){
+            timeUlti = "Ready";
+        }
+        this->ultimText->setPlainText("Ultim : " + timeUlti);
+
     this->views()[0]->centerOn(position);
 
     //Gère les touches pressées
@@ -327,7 +341,7 @@ void MyScene::checkCollisions() {
 
     //Gère les collisions entre le personnage et les ennemis
     for (Ennemies* ennemi : this->ennemies) {
-        if(perso->collidesWithItem(ennemi)){
+        if(perso->collidesWithItem(ennemi) && perso->invisible == false){
             this->ennemies.removeOne(ennemi);
             this->removeItem(ennemi);
             //Ajout de leur cadavre :
@@ -348,7 +362,7 @@ void MyScene::checkCollisions() {
 
     //Gère les collisions entre le personnage et les ennemis shooter
     for (EnnemiesShooter* ennemi : this->ennemiesShooter) {
-        if(perso->collidesWithItem(ennemi)){
+        if(perso->collidesWithItem(ennemi) && perso->invisible == false){
             this->ennemiesShooter.removeOne(ennemi);
             for(MagicBalls* magicBall : ennemi->magicBalls){
                 this->removeItem(magicBall);
@@ -375,7 +389,7 @@ void MyScene::checkCollisions() {
     //Gère les collisions entre le personnage et les magic balls
     for (EnnemiesShooter* ennemi : this->ennemiesShooter) {
         for (MagicBalls* magicBall : ennemi->magicBalls) {
-            if(perso->collidesWithItem(magicBall)){
+            if(perso->collidesWithItem(magicBall) && perso->invisible == false){
                 this->removeItem(magicBall);
                 ennemi->magicBalls.removeOne(magicBall);
                 //Enleve une vie au personnage
@@ -451,13 +465,52 @@ void MyScene::checkKeysPressed() {
                     perso->shoot();
                 }
                 break;
-            case Qt::Key_F:
-                perso->beInvisible();
+                case Qt::Key_E:
+                    if(ultiInterval->elapsed() > 25000) {
+                        ultiInterval->restart();
+                        this->spawnUltim();
+                        perso->shootSpecial();
+                    }
                 break;
-
+            case Qt::Key_R:
+                if(this->getHeroes()->magicPower > 0){
+                    this->getHeroes()->magicPower--;
+                    this->getHeroes()->invisible = true;
+                    this->getHeroes()->setOpacity(0.5);
+                    QTimer::singleShot(4000, this, [=](){
+                        this->getHeroes()->invisible = false;
+                        this->getHeroes()->setOpacity(1);
+                    });
+                }
+                this->keysPressed.removeOne(key);
+                break;
             }
     }
 }
+
+void MyScene::spawnUltim() {
+    QGraphicsPixmapItem* ultim = new QGraphicsPixmapItem(QPixmap("img/ulti_1.png"));
+    //Se place au milieu de position
+    ultim->setPos(this->position.x() + - ultim->boundingRect().width()/2, this->position.y() - ultim->boundingRect().height()/2);
+    this->addItem(ultim);
+
+    QTimer::singleShot(100, [=]() {
+        ultim->setPixmap(QPixmap("img/ulti_2.png"));
+        ultim->setPos(this->position.x() + - ultim->boundingRect().width()/2, this->position.y() - ultim->boundingRect().height()/2);
+        QTimer::singleShot(100, [=]() {
+            ultim->setPixmap(QPixmap("img/ulti_3.png"));
+            ultim->setPos(this->position.x() + - ultim->boundingRect().width()/2, this->position.y() - ultim->boundingRect().height()/2);
+            QTimer::singleShot(100, [=]() {
+                ultim->setPixmap(QPixmap("img/ulti_4.png"));
+                ultim->setPos(this->position.x() + - ultim->boundingRect().width()/2, this->position.y() - ultim->boundingRect().height()/2);
+                QTimer::singleShot(100, [=]() {
+                    this->removeItem(ultim);
+                });
+            });
+        });
+    });
+}
+
 
 void MyScene::spawnEnnemy() {
     if(this->getHeroes()->getScore() > step){

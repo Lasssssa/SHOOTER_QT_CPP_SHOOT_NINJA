@@ -16,11 +16,12 @@ class Heroes : public QGraphicsPixmapItem{
 private :
     int life;
     int speed;
-    bool invisible;
     MyScene* scene;
     int score;
 
 public :
+    bool invisible;
+    int magicPower;
     QVector<Shuriken*> shurikens;
 
     Heroes(MyScene* scene, QString nameFile);
@@ -32,6 +33,8 @@ public :
     void setSpeed(int speed);
     int getLife();
     int getSpeed();
+
+    void shootSpecial();
 
     int getScore();
     void setScore(int score);
