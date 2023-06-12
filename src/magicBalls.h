@@ -1,7 +1,7 @@
 
-
 #ifndef MINI_PROJET_CPP_MAGICBALLS_H
 #define MINI_PROJET_CPP_MAGICBALLS_H
+
 #include <QGraphicsPixmapItem>
 #include <QGraphicsScene>
 #include <QTimer>

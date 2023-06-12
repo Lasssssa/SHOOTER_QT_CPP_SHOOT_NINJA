@@ -20,16 +20,6 @@
  * - Ajout d'un menu de sélection de niveau (map différente)
  * - Ajout d'un menu de sélection de difficulté (plus de monstres, plus de dégats, plus de vie)
  *
- * -------------------Ajout dans le code--------------------
- * - Ajout d'un timer
- * - Ajout du pseudo
- * - Ajout de l'inventaire
- * --------------Chose prioritaire----------------
- * - Ajout d'un timer
- *
- * 
- * - Ajout du menu de base
- * -Ajout du menu de gameOver
  */
 
 int main(int argc, char *argv[]) {

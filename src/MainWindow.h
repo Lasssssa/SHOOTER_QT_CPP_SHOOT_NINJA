@@ -8,6 +8,7 @@
 #include <QAction>
 #include <QMessageBox>
 #include <iostream>
+#include <QString>
 
 
 #include "MyScene.h"
@@ -17,10 +18,6 @@
 //Inlude pour sleep()
 #include <unistd.h>
 #include <string>
-
-//class MyScene;
-//class ScoreScene;
-//class StartScene;
 
 class MainWindow : public QMainWindow {
     Q_OBJECT

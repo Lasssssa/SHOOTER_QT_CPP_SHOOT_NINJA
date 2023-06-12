@@ -24,6 +24,7 @@ private :
     QPixmap background;
     MainWindow* mainWindow;
     QPushButton* startGame;
+    QPushButton* quitGame;
     QLineEdit* pseudoEdit;
 public :
     StartScene(MainWindow *mainWindow, QObject *parent = nullptr);
@@ -34,6 +35,7 @@ public :
 
 public slots:
     void slot_startGame();
+    void slot_closeGame();
 
 };
 

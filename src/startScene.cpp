@@ -14,16 +14,24 @@ StartScene::StartScene(MainWindow* mainWindow, QObject* parent) : QGraphicsScene
     this->startGame->setGeometry(0, 0, 200, 50);
     this->startGame->setStyleSheet("background-color: #0f77fb; color: #000000");
 
+    this->quitGame = new QPushButton("Quit Game");
+    this->quitGame->setGeometry(0, 0, 200, 50);
+    this->quitGame->setStyleSheet("background-color: #0f77fb; color: #000000");
+
+
     pseudoEdit = new QLineEdit();
     pseudoEdit->setGeometry(0, 0, 200, 50);
 
     QGraphicsProxyWidget* proxyWidget1 = addWidget(startGame);
     QGraphicsProxyWidget* proxyWidget3 = addWidget(pseudoEdit);
+    QGraphicsProxyWidget* proxyWidget2 = addWidget(quitGame);
 
     proxyWidget1->setPos(width/2 , height/2 - 10);
     proxyWidget3->setPos(width/2 , height/2 - 70);
+    proxyWidget2->setPos(width/2 , height/2 + 50);
 
     connect(this->startGame, SIGNAL(clicked()), this, SLOT(slot_startGame()));
+    connect(this->quitGame, SIGNAL(clicked()), this, SLOT(slot_closeGame()));
 
 }
 

@@ -16,15 +16,11 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
     this->setMinimumSize(700, 700);
     this->setMaximumSize(700, 700);
 
-    //this->mainScene = new MyScene(this);
-    //this->scoreScene = new ScoreScene(this, "Inconnu", 0, nullptr);
-    //helpMenu = menuBar()->addMenu(tr("&Help"));
-    //QAction* actionHelp = new QAction(tr("&About"), this);
+    helpMenu = menuBar()->addMenu(tr("&Help"));
+    QAction* actionHelp = new QAction(tr("&Rules"), this);
 
-    //connect(actionHelp, SIGNAL(triggered()), this, SLOT(slot_aboutMenu()));
-    //helpMenu->addAction(actionHelp);
-    //Connect the signal from the main scene to the slot of the main window
-    //connect(this->mainScene, SIGNAL(gameOver()), this, SLOT(showGameOverScene()));
+    connect(actionHelp, SIGNAL(triggered()), this, SLOT(slot_aboutMenu()));
+    helpMenu->addAction(actionHelp);
 }
 
 
@@ -65,8 +61,20 @@ MainWindow::~MainWindow() {
 
 void MainWindow::slot_aboutMenu(){
     QMessageBox msgBox;
-    msgBox.setText("A small QT/C++ projet...");
-    msgBox.setModal(true); // on souhaite que la fenetre soit modale i.e qu'on ne puisse plus cliquer ailleurs
+    msgBox.setWindowTitle("Rules");
+    QString rules = "Rules : \n\n"
+                        "The goal of the game is to survive as long as possible.\n"
+                        "You can move forward with the Z key.\n"
+                        "To move backwards, press the S key.\n"
+                        "To move to the left, press the Q key.\n"
+                        "To move to the right, press the D key.\n"
+                        "You can shoot with the space bar.\n"
+                        "You can get your score at the end of the game.\n"
+                        "You can also get the last 10 scores in the end table. \n"
+                        "As for the score, you earn points by surviving time. \n"
+                        "You can also earn points by eliminating enemies. \n";
+    msgBox.setText(rules);
+    msgBox.setModal(true);
     msgBox.exec();
 }
 
@@ -145,7 +153,6 @@ void exportScore(int score, std::string name){
         }
         file.close();
         std::ofstream file2("score.txt");
-        std::cout << newFile << std::endl;
         file2 << newFile;
         file2.close();
     }
@@ -155,7 +162,10 @@ void ScoreScene::slot_continue(){
     mainWindow->restartGameWindow();
 }
 
-
+void StartScene::slot_closeGame(){
+    //std::cout << "Close Game" << std::endl;
+    this->mainWindow->close();
+}
 
 void ScoreScene::close(){
     this->mainWindow->restartMenu();
