@@ -25,11 +25,11 @@ Check if the eyes are moving with your mouse
 - `sudo apt-get install git git-core`
 ### Clone the repository
 - Go to the directory where you want to clone the repository
-- `sudo git clone https://github.com/Lasssssa/PROJET_CIR2_QT_CPP`
+- `sudo git clone https://github.com/Lasssssa/SHOOTER_QT_CPP_SHOOT_NINJA`
 
 ### Update
 - Go to the directory where you clone the repository
-- `sudo git pull https://github.com/Lasssssa/PROJET_CIR2_QT_CPP`
+- `sudo git pull https://github.com/Lasssssa/SHOOTER_QT_CPP_SHOOT_NINJA`
 
 ### Other way to get the repository
 - Go to the directory where you want to clone the repository
@@ -82,4 +82,4 @@ Now you can play to the game
 
 
 ## Repertory Github :
-https://github.com/Lasssssa/PROJET_CIR2_QT_CPP
+https://github.com/Lasssssa/SHOOTER_QT_CPP_SHOOT_NINJA
