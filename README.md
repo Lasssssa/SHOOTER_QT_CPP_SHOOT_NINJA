@@ -1,6 +1,9 @@
 # SHOOT NINJA Project CIR2 - Project QT - C++
 
-Creator of **Shoot_Ninja** : Théo PORODO
+# Installation with Docker
+Unfortunately, this project has not been programmed with docker, so you need to set up your Linux machine.
+
+However, it's possible that a version with docker will be released one day.
 
 # Setup the linux machine
 
