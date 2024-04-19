@@ -84,5 +84,5 @@ Now you can play to the game
 - All the scores are saved in the file score.txt (that is not very secure but you can see all the scores)
 
 
-## Repertory Github :
+## Repository Github :
 https://github.com/Lasssssa/SHOOTER_QT_CPP_SHOOT_NINJA
