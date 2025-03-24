@@ -1,34 +1,88 @@
-# mini_projet_cpp
-Mini projet de C++ pour la découverte et l'utilisation de Qt. Le but étant de réaliser un petit jeu vidéo type shooter
+# SHOOT NINJA Project CIR2 - Project QT - C++
 
-Univers du jeu de base : 
+# Installation with Docker
+Unfortunately, this project has not been programmed with docker, so you need to set up your Linux machine.
 
-- Un homme contre des monstres dans une map
-- Prologue ?
+However, it's possible that a version with docker will be released one day.
 
-Univers du jeu amélioré (si temps) 
+# Setup the linux machine
 
-- Plusieurs type de map (sahara, foret, ect) 
+### Update
+- `sudo apt-get update`
+- `sudo apt-get upgrade`
 
-Idées principales du Jeu : 
+### Install C++ / QT Package | Version : Update
+- `sudo apt-get install cmake`
+- `sudo apt-get install qt6-base-dev qtchooser qmake6 qt6-base-dev-tools`
 
-- Choisir sa Map (avec des niveaux de difficultés croissantes)
-- Map qui va vers le haut mais ou on peut se déplacer dessus (un peu à droite, un peu à gauche, au dessus et en dessous)
-- Map qui va de plus en plus vite avec de plus en plus d'ennemi. 
+### Verify the installation
+You can install Xming to verify the installation of QT
+- `sudo apt-get install xming`
+- `sudo apt-get install x11-apps`
+- `xeyes`
 
-A faire en premier : 
+Check if the eyes are moving with your mouse
 
-- Une Map
-- Des ennemis 
-- Accélération de la Map 
-- De plus en plus d'ennemi
-- Créer un joueur : Nom 
-- Garder son score
+# Clone the repository Github in your linux machine
+### Install git
+- `sudo apt-get install git git-core`
+### Clone the repository
+- Go to the directory where you want to clone the repository
+- `sudo git clone https://github.com/Lasssssa/SHOOTER_QT_CPP_SHOOT_NINJA`
 
-Ajout : 
+### Update
+- Go to the directory where you clone the repository
+- `sudo git pull https://github.com/Lasssssa/SHOOTER_QT_CPP_SHOOT_NINJA`
 
-- Choisir sa map avec un niveau de difficulté
-- Choisir un skin pour un certain joueur 
-- Obtenir des armes par terre (+- fortes)
-- Obtenir des pièces pour acheter des armes plus forte
-- Boutique --> acheter des shields, des armes
+### Other way to get the repository
+- Go to the directory where you want to clone the repository
+- Get the repository and move it to the directory where you want to clone the repository
+
+# Launch the application
+
+### Run the application
+- Move to the directory where you clone the repository
+- `cd PROJET_CIR2_QT_CPP`
+- `cmake .`
+- `make`
+- `./prog`
+
+### Change the CMakeLists.txt
+If you want to change the CMakeLists.txt, you need to delete the CMakeCache.txt
+- `rm CMakeCache.txt`
+- Go to the CMakeLists.txt and change it as you want
+- `cmake .`
+- `make`
+- `./name_of_the_executable`
+
+# The Game
+Now you can play to the game
+- Launch the application by following the steps above (Run the application)
+
+### Aim of the game
+- Kill the maximum of Mexican skeletons
+- Kill the maximum of Magician skeletons
+- Try to survive as long as possible
+- Try to have the maximum of points
+
+### How to play
+- Use Z to move up
+- Use Q to move left
+- Use S to move down
+- Use D to move right
+- Use Space to shoot
+- Use E to use the special attack (big explosion that kill all the skeletons on the screen)
+- Use R to be invincible during 5 seconds
+
+### Other rules
+- If you kill a Mexican skeleton, you win 25 points
+- If you kill a Magician skeleton, you win 25 points
+- You win points every seconds pass
+- You can get your last score at the end of the game
+- But you can't get your best score at the end of the game (except if you are in the 10 best scores)
+- You can restart the game at the end of the game
+- All the scores are saved in the file score.txt (that is not very secure but you can see all the scores)
+
+
+## Repository Github :
+https://github.com/Lasssssa/SHOOTER_QT_CPP_SHOOT_NINJA
