@@ -1,4 +1,0 @@
-/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/CMakeFiles/prog.dir
-/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/CMakeFiles/edit_cache.dir
-/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/CMakeFiles/rebuild_cache.dir
-/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/CMakeFiles/prog_autogen.dir
