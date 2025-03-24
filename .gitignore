@@ -1,5 +1,10 @@
 .idea/
 
+prog_autogen/
+
+CMakeFiles/
+
 CMakeCache.txt
 
+prog
 
