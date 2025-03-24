@@ -1,5 +1,7 @@
 .idea/
 
+.qt/
+
 prog_autogen/
 
 CMakeFiles/
