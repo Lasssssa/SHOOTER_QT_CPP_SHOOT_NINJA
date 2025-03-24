@@ -1,0 +1,4 @@
+Cannot generate into \\wsl.localhost\Debian\home\tporodo\SHOOTER_QT_CPP_SHOOT_NINJA
+It is already used for project \mnt\c\Users\theop\Documents\CIR2\C++\Pratique_TP\mini_projet_cpp
+
+Please either delete it manually or select another generation directory

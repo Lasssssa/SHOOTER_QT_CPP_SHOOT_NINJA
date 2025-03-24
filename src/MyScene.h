@@ -96,12 +96,12 @@ protected:
     void keyReleaseEvent(QKeyEvent* event);
 
 public slots:
-    void update();
+            void update();
     void spawnEnnemy();
     void shootOfEnnemies();
 
     signals :
-    void gameOver();
+            void gameOver();
 };
 
 #endif //CPP_QT_TPMINIPROJET_MYSCENE_H

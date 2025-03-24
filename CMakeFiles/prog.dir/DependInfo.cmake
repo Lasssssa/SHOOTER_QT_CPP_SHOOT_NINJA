@@ -1,40 +1,25 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/prog_autogen/mocs_compilation.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o"
-  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MainWindow.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/MainWindow.cpp.o"
-  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/MyScene.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/MyScene.cpp.o"
-  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/ennemies.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/ennemies.cpp.o"
-  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/healthBar.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/healthBar.cpp.o"
-  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/heroes.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/heroes.cpp.o"
-  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/magicBalls.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/magicBalls.cpp.o"
-  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/main.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/main.cpp.o"
-  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/scoreScene.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/scoreScene.cpp.o"
-  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shooter.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/shooter.cpp.o"
-  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/shuriken.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/shuriken.cpp.o"
-  "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/src/startScene.cpp" "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/CMakeFiles/prog.dir/src/startScene.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "QT_CORE_LIB"
-  "QT_GUI_LIB"
-  "QT_NO_DEBUG"
-  "QT_WIDGETS_LIB"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "prog_autogen/include"
-  "/usr/include/x86_64-linux-gnu/qt6/QtWidgets"
-  "/usr/include/x86_64-linux-gnu/qt6"
-  "/usr/include/x86_64-linux-gnu/qt6/QtCore"
-  "/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++"
-  "/usr/include/x86_64-linux-gnu/qt6/QtGui"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/prog_autogen/mocs_compilation.cpp" "CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o.d"
+  "/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/MainWindow.cpp" "CMakeFiles/prog.dir/src/MainWindow.cpp.o" "gcc" "CMakeFiles/prog.dir/src/MainWindow.cpp.o.d"
+  "/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/MyScene.cpp" "CMakeFiles/prog.dir/src/MyScene.cpp.o" "gcc" "CMakeFiles/prog.dir/src/MyScene.cpp.o.d"
+  "/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/ennemies.cpp" "CMakeFiles/prog.dir/src/ennemies.cpp.o" "gcc" "CMakeFiles/prog.dir/src/ennemies.cpp.o.d"
+  "/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/healthBar.cpp" "CMakeFiles/prog.dir/src/healthBar.cpp.o" "gcc" "CMakeFiles/prog.dir/src/healthBar.cpp.o.d"
+  "/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/heroes.cpp" "CMakeFiles/prog.dir/src/heroes.cpp.o" "gcc" "CMakeFiles/prog.dir/src/heroes.cpp.o.d"
+  "/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/magicBalls.cpp" "CMakeFiles/prog.dir/src/magicBalls.cpp.o" "gcc" "CMakeFiles/prog.dir/src/magicBalls.cpp.o.d"
+  "/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/main.cpp" "CMakeFiles/prog.dir/src/main.cpp.o" "gcc" "CMakeFiles/prog.dir/src/main.cpp.o.d"
+  "/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/scoreScene.cpp" "CMakeFiles/prog.dir/src/scoreScene.cpp.o" "gcc" "CMakeFiles/prog.dir/src/scoreScene.cpp.o.d"
+  "/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/shooter.cpp" "CMakeFiles/prog.dir/src/shooter.cpp.o" "gcc" "CMakeFiles/prog.dir/src/shooter.cpp.o.d"
+  "/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/shuriken.cpp" "CMakeFiles/prog.dir/src/shuriken.cpp.o" "gcc" "CMakeFiles/prog.dir/src/shuriken.cpp.o.d"
+  "/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/startScene.cpp" "CMakeFiles/prog.dir/src/startScene.cpp.o" "gcc" "CMakeFiles/prog.dir/src/startScene.cpp.o.d"
   )
 
 # Targets to which this target links.

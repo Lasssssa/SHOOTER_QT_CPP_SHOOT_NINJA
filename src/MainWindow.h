@@ -8,7 +8,6 @@
 #include <QAction>
 #include <QMessageBox>
 #include <iostream>
-#include <QString>
 
 
 #include "MyScene.h"
@@ -18,6 +17,10 @@
 //Inlude pour sleep()
 #include <unistd.h>
 #include <string>
+
+//class MyScene;
+//class ScoreScene;
+//class StartScene;
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
@@ -50,7 +53,5 @@ int getLastScore();
 std::string getLastName();
 
 void exportScore(int score, std::string name);
-
-bool playerIsNotInFile(std::string name);
 
 #endif //CPP_QT_TPMINIPROJET_MAINWINDOW_H

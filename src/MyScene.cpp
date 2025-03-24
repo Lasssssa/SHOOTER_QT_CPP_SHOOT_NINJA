@@ -200,83 +200,83 @@ void MyScene::drawBackground(QPainter *painter, const QRectF &rect) {
 
 void MyScene::update() {
 
-        scoreShooter->setPlainText(QString::number(countShooter));
-        scoreEnnemies->setPlainText(QString::number(countEnnemies));
-        this->perso->setScore(this->perso->getScore()+1);
-        //Update du score
-        this->scoreText->setPlainText("Score : " + QString::number(perso->getScore()));
-        //Fait avancer le personnage
-        int speedGame = 2;
-        int newY = this->position.y() - speedGame;
-        if(newY > 1920)
-        {
-            scoreShooter->setPos(scoreShooter->pos().x(),scoreShooter->pos().y()-speedGame);
-            scoreEnnemies->setPos(scoreEnnemies->pos().x(),scoreEnnemies->pos().y()-speedGame);
-            ennemiesImage->setPos(ennemiesImage->pos().x(),ennemiesImage->pos().y()-speedGame);
-            shooterImage->setPos(shooterImage->pos().x(),shooterImage->pos().y()-speedGame);
-            scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame);
-            ultimText->setPos(ultimText->pos().x(),ultimText->pos().y()-speedGame);
-            invisibilityText->setPos(invisibilityText->pos().x(),invisibilityText->pos().y()-speedGame);
-            this->healthBar->moveHealthBar();
-            this->position.setY(newY);
-            perso->moveUp(speedGame);
-            for (Ennemies* ennemi : this->ennemies) {
-                ennemi->move();
-            }
-            //Fait avancer les shurikens
-            for (Shuriken* shuriken : this->perso->shurikens) {
-                shuriken->move();
-            }
-            //Fait avancer les shoter
-            for (EnnemiesShooter* ennemi : this->ennemiesShooter){
-                ennemi->move();
-                for(MagicBalls* magicBall : ennemi->magicBalls){
-                    magicBall->move();
-                }
-            }
-        }else{
-            newY += 3840;
-            this->position.setY(newY);
-            scoreShooter->setPos(scoreShooter->pos().x(),scoreShooter->pos().y()-speedGame+3840);
-            scoreEnnemies->setPos(scoreEnnemies->pos().x(),scoreEnnemies->pos().y()-speedGame+3840);
-            ennemiesImage->setPos(ennemiesImage->pos().x(),ennemiesImage->pos().y()-speedGame+3840);
-            shooterImage->setPos(shooterImage->pos().x(),shooterImage->pos().y()-speedGame+3840);
-            scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame+3840);
-            ultimText->setPos(ultimText->pos().x(),ultimText->pos().y()-speedGame+3840);
-            invisibilityText->setPos(invisibilityText->pos().x(),invisibilityText->pos().y()-speedGame+3840);
-            int Y = perso->pos().y() - speedGame +3840;
-            perso->setPos(perso->pos().x(),Y);
-            for (Ennemies* ennemi : this->ennemies) {
-                ennemi->setPos(ennemi->pos().x(),ennemi->pos().y()+3840);
-            }
-            //Fait avancer les shurikens
-            for (Shuriken* shuriken : this->perso->shurikens) {
-                shuriken->setPos(shuriken->pos().x(),shuriken->pos().y()+3840);
-            }
-            //Fait avancer les shoter
-            for (EnnemiesShooter* ennemi : this->ennemiesShooter){
-                ennemi->setPos(ennemi->pos().x(),ennemi->pos().y()+3840);
-                for(MagicBalls* magicBall : ennemi->magicBalls){
-                    magicBall->setPos(magicBall->pos().x(),magicBall->pos().y()+3840);
-                }
-            }
-            //Fait avancer les magics balls des shooter ennemies
-            this->healthBar->setPos(this->healthBar->pos().x(),this->healthBar->pos().y()+3840);
-
+    scoreShooter->setPlainText(QString::number(countShooter));
+    scoreEnnemies->setPlainText(QString::number(countEnnemies));
+    this->perso->setScore(this->perso->getScore()+1);
+    //Update du score
+    this->scoreText->setPlainText("Score : " + QString::number(perso->getScore()));
+    //Fait avancer le personnage
+    int speedGame = 2;
+    int newY = this->position.y() - speedGame;
+    if(newY > 1920)
+    {
+        scoreShooter->setPos(scoreShooter->pos().x(),scoreShooter->pos().y()-speedGame);
+        scoreEnnemies->setPos(scoreEnnemies->pos().x(),scoreEnnemies->pos().y()-speedGame);
+        ennemiesImage->setPos(ennemiesImage->pos().x(),ennemiesImage->pos().y()-speedGame);
+        shooterImage->setPos(shooterImage->pos().x(),shooterImage->pos().y()-speedGame);
+        scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame);
+        ultimText->setPos(ultimText->pos().x(),ultimText->pos().y()-speedGame);
+        invisibilityText->setPos(invisibilityText->pos().x(),invisibilityText->pos().y()-speedGame);
+        this->healthBar->moveHealthBar();
+        this->position.setY(newY);
+        perso->moveUp(speedGame);
+        for (Ennemies* ennemi : this->ennemies) {
+            ennemi->move();
         }
-
-        QString timeUlti = QString::number(25 - ultiInterval->elapsed()/1000);
-        if(ultiInterval->elapsed() > 25000){
-            timeUlti = "Ready";
+        //Fait avancer les shurikens
+        for (Shuriken* shuriken : this->perso->shurikens) {
+            shuriken->move();
         }
-
-        QString timeInvisibility = QString::number(15 - invisibilityInterval->elapsed()/1000);
-        if(invisibilityInterval->elapsed() > 15000){
-            timeInvisibility = "Ready";
+        //Fait avancer les shoter
+        for (EnnemiesShooter* ennemi : this->ennemiesShooter){
+            ennemi->move();
+            for(MagicBalls* magicBall : ennemi->magicBalls){
+                magicBall->move();
+            }
         }
-        this->invisibilityText->setPlainText("Invisibility : " + timeInvisibility);
+    }else{
+        newY += 3840;
+        this->position.setY(newY);
+        scoreShooter->setPos(scoreShooter->pos().x(),scoreShooter->pos().y()-speedGame+3840);
+        scoreEnnemies->setPos(scoreEnnemies->pos().x(),scoreEnnemies->pos().y()-speedGame+3840);
+        ennemiesImage->setPos(ennemiesImage->pos().x(),ennemiesImage->pos().y()-speedGame+3840);
+        shooterImage->setPos(shooterImage->pos().x(),shooterImage->pos().y()-speedGame+3840);
+        scoreText->setPos(scoreText->pos().x(),scoreText->pos().y()-speedGame+3840);
+        ultimText->setPos(ultimText->pos().x(),ultimText->pos().y()-speedGame+3840);
+        invisibilityText->setPos(invisibilityText->pos().x(),invisibilityText->pos().y()-speedGame+3840);
+        int Y = perso->pos().y() - speedGame +3840;
+        perso->setPos(perso->pos().x(),Y);
+        for (Ennemies* ennemi : this->ennemies) {
+            ennemi->setPos(ennemi->pos().x(),ennemi->pos().y()+3840);
+        }
+        //Fait avancer les shurikens
+        for (Shuriken* shuriken : this->perso->shurikens) {
+            shuriken->setPos(shuriken->pos().x(),shuriken->pos().y()+3840);
+        }
+        //Fait avancer les shoter
+        for (EnnemiesShooter* ennemi : this->ennemiesShooter){
+            ennemi->setPos(ennemi->pos().x(),ennemi->pos().y()+3840);
+            for(MagicBalls* magicBall : ennemi->magicBalls){
+                magicBall->setPos(magicBall->pos().x(),magicBall->pos().y()+3840);
+            }
+        }
+        //Fait avancer les magics balls des shooter ennemies
+        this->healthBar->setPos(this->healthBar->pos().x(),this->healthBar->pos().y()+3840);
 
-        this->ultimText->setPlainText("Ultim : " + timeUlti);
+    }
+
+    QString timeUlti = QString::number(25 - ultiInterval->elapsed()/1000);
+    if(ultiInterval->elapsed() > 25000){
+        timeUlti = "Ready";
+    }
+
+    QString timeInvisibility = QString::number(15 - invisibilityInterval->elapsed()/1000);
+    if(invisibilityInterval->elapsed() > 15000){
+        timeInvisibility = "Ready";
+    }
+    this->invisibilityText->setPlainText("Invisibility : " + timeInvisibility);
+
+    this->ultimText->setPlainText("Ultim : " + timeUlti);
 
     this->views()[0]->centerOn(position);
 
@@ -459,7 +459,7 @@ void MyScene::clearShurikens() {
 
 void MyScene::checkKeysPressed() {
     for (int key : this->keysPressed) {
-            switch (key) {
+        switch (key) {
             case Qt::Key_Q:
                 if(perso->pos().x()-position.x()+(this->views()[0]->width()/2) > 0){
                     perso->changeImage("img/main_perso_left.png");
@@ -490,12 +490,12 @@ void MyScene::checkKeysPressed() {
                     perso->shoot();
                 }
                 break;
-                case Qt::Key_E:
-                    if(ultiInterval->elapsed() > 25000) {
-                        ultiInterval->restart();
-                        this->spawnUltim();
-                        perso->shootSpecial();
-                    }
+            case Qt::Key_E:
+                if(ultiInterval->elapsed() > 25000) {
+                    ultiInterval->restart();
+                    this->spawnUltim();
+                    perso->shootSpecial();
+                }
                 break;
             case Qt::Key_R:
                 if(invisibilityInterval->elapsed() > 15000) {
@@ -509,7 +509,7 @@ void MyScene::checkKeysPressed() {
                 invisibilityInterval->restart();
                 this->keysPressed.removeOne(key);
                 break;
-            }
+        }
     }
 }
 

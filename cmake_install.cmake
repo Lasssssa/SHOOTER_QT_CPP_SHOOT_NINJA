@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp
+# Install script for directory: /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/tporo/OneDrive - yncréa/Documents/CIR2/C++/Pratique_TP/mini_projet_cpp/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
