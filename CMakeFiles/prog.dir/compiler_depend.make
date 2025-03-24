@@ -480,6 +480,14 @@ CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o: prog_autogen/mocs_compi
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
   src/heroes.h \
   src/shuriken.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF \
@@ -580,14 +588,6 @@ CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o: prog_autogen/mocs_compi
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h \
   src/startScene.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
-  /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/linux/close_range.h \
   prog_autogen/UVLADIE3JM/moc_MyScene.cpp \
   src/MyScene.h \
   prog_autogen/UVLADIE3JM/moc_scoreScene.cpp \
@@ -1073,6 +1073,14 @@ CMakeFiles/prog.dir/src/MainWindow.cpp.o: src/MainWindow.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
   src/heroes.h \
   src/shuriken.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF \
@@ -1172,15 +1180,7 @@ CMakeFiles/prog.dir/src/MainWindow.cpp.o: src/MainWindow.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication_platform.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h \
   src/startScene.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
-  /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/linux/close_range.h
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject
 
 CMakeFiles/prog.dir/src/MyScene.cpp.o: src/MyScene.cpp \
   /usr/include/stdc-predef.h \
@@ -1646,6 +1646,14 @@ CMakeFiles/prog.dir/src/MyScene.cpp.o: src/MyScene.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
   src/heroes.h \
   src/shuriken.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF \
@@ -2897,6 +2905,14 @@ CMakeFiles/prog.dir/src/heroes.cpp.o: src/heroes.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
   src/ennemies.h \
   src/shooter.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF \
@@ -3786,6 +3802,14 @@ CMakeFiles/prog.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QTime \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
   src/heroes.h \
   src/shuriken.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF \
@@ -3882,15 +3906,7 @@ CMakeFiles/prog.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QCoreApplication \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h \
   src/startScene.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
-  /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/linux/close_range.h
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject
 
 CMakeFiles/prog.dir/src/scoreScene.cpp.o: src/scoreScene.cpp \
   /usr/include/stdc-predef.h \
@@ -4899,6 +4915,14 @@ CMakeFiles/prog.dir/src/shooter.cpp.o: src/shooter.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
   src/heroes.h \
   src/shuriken.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsItem \
@@ -5789,14 +5813,6 @@ prog_autogen/UVLADIE3JM/moc_startScene.cpp:
 
 prog_autogen/UVLADIE3JM/moc_scoreScene.cpp:
 
-/usr/include/linux/close_range.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
 src/startScene.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication_platform.h:
@@ -5814,6 +5830,16 @@ src/startScene.h:
 /usr/include/c++/12/bits/fs_dir.h:
 
 /usr/include/c++/12/codecvt:
+
+/usr/include/c++/12/bits/locale_facets_nonio.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h:
+
+/usr/include/c++/12/bits/locale_facets_nonio.h:
+
+/usr/include/c++/12/locale:
 
 /usr/include/c++/12/streambuf:
 
@@ -5905,6 +5931,10 @@ src/startScene.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qgenericatomic.h:
 
+/usr/include/libintl.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
 /usr/include/c++/12/tr1/gamma.tcc:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydatapointer.h:
@@ -5930,6 +5960,12 @@ src/startScene.h:
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/12/bits/locale_conv.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h:
 
@@ -5974,10 +6010,6 @@ src/startScene.h:
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h:
 
 src/magicBalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/c++/12/variant:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerfwd.h:
 
@@ -6073,12 +6105,6 @@ prog_autogen/UVLADIE3JM/moc_MainWindow.cpp:
 
 /usr/include/c++/12/bits/stl_uninitialized.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/c++/12/bits/locale_conv.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 src/shuriken.h:
@@ -6100,6 +6126,8 @@ src/shuriken.h:
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qfile.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
@@ -6199,8 +6227,6 @@ src/shuriken.h:
 
 /usr/include/c++/12/bits/exception.h:
 
-/usr/include/c++/12/bits/locale_facets_nonio.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h:
 
 /usr/include/c++/12/bits/cpp_type_traits.h:
@@ -6210,8 +6236,6 @@ src/shuriken.h:
 /usr/include/c++/12/bits/codecvt.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h:
 
 /usr/include/c++/12/bits/concept_check.h:
 
@@ -6268,10 +6292,6 @@ src/healthBar.h:
 /usr/include/c++/12/sstream:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/c++/12/bits/stringfwd.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
 
@@ -6444,6 +6464,10 @@ src/shuriken.cpp:
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/c++/12/variant:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
@@ -6631,14 +6655,6 @@ src/shuriken.cpp:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject_impl.h:
 
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/usr/include/c++/12/cstring:
-
-/usr/include/c++/12/bits/charconv.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox:
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qbindingstorage.h:
 
 /usr/include/c++/12/ctime:
@@ -6658,6 +6674,14 @@ src/shuriken.cpp:
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h:
+
+/usr/include/c++/12/cstring:
+
+/usr/include/c++/12/bits/charconv.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h:
 
@@ -6835,6 +6859,16 @@ src/scoreScene.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h:
 
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/c++/12/bits/stringfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/linux/close_range.h:
+
 src/ennemies.h:
 
 src/shooter.h:
@@ -6916,13 +6950,3 @@ prog_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QFile:
-
-/usr/include/c++/12/locale:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/libintl.h:
-
-/usr/include/c++/12/bits/locale_facets_nonio.tcc:

@@ -481,6 +481,14 @@ CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h
+ /usr/include/unistd.h
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h
+ /usr/include/x86_64-linux-gnu/bits/environments.h
+ /usr/include/x86_64-linux-gnu/bits/confname.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
+ /usr/include/linux/close_range.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/heroes.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/shuriken.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF
@@ -581,14 +589,6 @@ CMakeFiles/prog.dir/prog_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/startScene.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject
- /usr/include/unistd.h
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h
- /usr/include/x86_64-linux-gnu/bits/environments.h
- /usr/include/x86_64-linux-gnu/bits/confname.h
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
- /usr/include/linux/close_range.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/prog_autogen/UVLADIE3JM/moc_MyScene.cpp
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/MyScene.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/prog_autogen/UVLADIE3JM/moc_scoreScene.cpp
@@ -1075,6 +1075,14 @@ CMakeFiles/prog.dir/src/MainWindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h
+ /usr/include/unistd.h
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h
+ /usr/include/x86_64-linux-gnu/bits/environments.h
+ /usr/include/x86_64-linux-gnu/bits/confname.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
+ /usr/include/linux/close_range.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/heroes.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/shuriken.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF
@@ -1175,14 +1183,6 @@ CMakeFiles/prog.dir/src/MainWindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/startScene.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject
- /usr/include/unistd.h
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h
- /usr/include/x86_64-linux-gnu/bits/environments.h
- /usr/include/x86_64-linux-gnu/bits/confname.h
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
- /usr/include/linux/close_range.h
 
 CMakeFiles/prog.dir/src/MyScene.cpp.o
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/MyScene.cpp
@@ -1649,6 +1649,14 @@ CMakeFiles/prog.dir/src/MyScene.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h
+ /usr/include/unistd.h
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h
+ /usr/include/x86_64-linux-gnu/bits/environments.h
+ /usr/include/x86_64-linux-gnu/bits/confname.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
+ /usr/include/linux/close_range.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/heroes.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/shuriken.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF
@@ -2903,6 +2911,14 @@ CMakeFiles/prog.dir/src/heroes.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h
+ /usr/include/unistd.h
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h
+ /usr/include/x86_64-linux-gnu/bits/environments.h
+ /usr/include/x86_64-linux-gnu/bits/confname.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
+ /usr/include/linux/close_range.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/ennemies.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/shooter.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF
@@ -3794,6 +3810,14 @@ CMakeFiles/prog.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTime
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h
+ /usr/include/unistd.h
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h
+ /usr/include/x86_64-linux-gnu/bits/environments.h
+ /usr/include/x86_64-linux-gnu/bits/confname.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
+ /usr/include/linux/close_range.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/heroes.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/shuriken.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF
@@ -3891,14 +3915,6 @@ CMakeFiles/prog.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/startScene.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject
- /usr/include/unistd.h
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h
- /usr/include/x86_64-linux-gnu/bits/environments.h
- /usr/include/x86_64-linux-gnu/bits/confname.h
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
- /usr/include/linux/close_range.h
 
 CMakeFiles/prog.dir/src/scoreScene.cpp.o
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/scoreScene.cpp
@@ -4909,6 +4925,14 @@ CMakeFiles/prog.dir/src/shooter.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h
+ /usr/include/unistd.h
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h
+ /usr/include/x86_64-linux-gnu/bits/environments.h
+ /usr/include/x86_64-linux-gnu/bits/confname.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
+ /usr/include/linux/close_range.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/heroes.h
  /home/tporodo/SHOOTER_QT_CPP_SHOOT_NINJA/src/shuriken.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsItem
